@@ -282,11 +282,11 @@
 						<img class="h-16 w-16 rounded-full" src="/images/csir.webp" alt="" />
 						<div class="">
 							<h3
-								class="text-base font-semibold  leading-7 tracking-tight dark:text-white text-gray-900"
+								class="text-xl  font-semibold  leading-7 tracking-tight dark:text-white text-gray-900"
 							>
 								Chandrakant Sir
 							</h3>
-							<p class="text-sm font-semibold leading-6 text-indigo-600">Founder / CEO</p>
+							<p class="text-xl font-semibold leading-6 text-indigo-600">Founder / CEO</p>
 						</div>
 					</div>
 				</li>
@@ -296,11 +296,11 @@
 						<img class="h-16 w-16 rounded-full" src="/images/hsir.webp" alt="" />
 						<div>
 							<h3
-								class="text-base font-semibold leading-7 tracking-tight dark:text-white text-gray-900"
+								class="text-xl font-semibold leading-7 tracking-tight dark:text-white text-gray-900"
 							>
 								Haris Sir
 							</h3>
-							<p class="text-sm font-semibold leading-6 text-indigo-600">Instructor</p>
+							<p class="text-xl font-semibold leading-6 text-indigo-600">Instructor</p>
 						</div>
 					</div>
 				</li>
@@ -310,11 +310,11 @@
 						<img class="h-16 w-16 rounded-full" src="/images/pmaam.webp" alt="" />
 						<div>
 							<h3
-								class="text-base font-semibold leading-7 tracking-tight dark:text-white text-gray-900"
+								class="text-xl font-semibold leading-7 tracking-tight dark:text-white text-gray-900"
 							>
 								Pooja Maam
 							</h3>
-							<p class="text-sm font-semibold leading-6 text-indigo-600">Instructor</p>
+							<p class="text-xl font-semibold leading-6 text-indigo-600">Instructor</p>
 						</div>
 					</div>
 				</li>
@@ -324,11 +324,11 @@
 						<img class="h-16 w-16 rounded-full" src="/images/ssir.webp" alt="" />
 						<div>
 							<h3
-								class="text-base font-semibold leading-7 tracking-tight dark:text-white text-gray-900"
+								class="text-xl font-semibold leading-7 tracking-tight dark:text-white text-gray-900"
 							>
 								Shrikant Sir
 							</h3>
-							<p class="text-sm font-semibold leading-6 text-indigo-600">Instructor</p>
+							<p class="text-xl font-semibold leading-6 text-indigo-600">Instructor</p>
 						</div>
 					</div>
 				</li>
