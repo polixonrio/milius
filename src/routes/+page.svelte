@@ -4,7 +4,7 @@
 </script>
 
 <main class="dark:bg-gray-800 bg-gray-100  dark:text-gray-100">
-	<div class="bg-gray h-screen">
+	<div class="bg-gray flex  h-screen">
 		<div class="relative isolate px-6 md:py-16 my-auto align-middle ">
 			<div
 				class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
