@@ -3,7 +3,7 @@
 	import { Heading, P, Hr, Img, Card } from 'flowbite-svelte';
 </script>
 
-<main class="dark:bg-gray-800 bg-gray-100  dark:text-gray-100">
+<main class="pt-12 dark:bg-gray-800 bg-gray-100  dark:text-gray-100">
 	<section class="sm:py-20">
 		<div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
 			<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
