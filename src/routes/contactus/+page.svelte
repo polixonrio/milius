@@ -2,7 +2,7 @@
 	<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
 
 
-<section class="bg-white dark:bg-gray-900 relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]">
+<section class="bg-gray-200 dark:bg-gray-900 relative z-10 overflow-hidden bg-white py-20 lg:py-[120px]">
     <div class="container mx-auto">
       <div class="-mx-4 flex flex-wrap lg:justify-between">
         <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -951,6 +951,6 @@
 </section>
 <style>
 	p {
-		font-family: 'Montserrat', sans-serif;
+		font-family: 'Quicksand', sans-serif;
 	}
 </style>
