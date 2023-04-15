@@ -29,7 +29,7 @@
 					</div>
 				</div>
 				<div class="text-center">
-					<p class="text-center font-bold md:text-left md:text-6xl text-3xl">
+					<p class="text-center font-bold md:text-left md:text-6xl text-5xl">
 						PROGRAMMING IS <span class=" text-purple-600 "> MORE </span> DIFFICULT NOW, JOIN NOW
 					</p>
 					<p class="text-center mt-6 font-extrabold  leading-8 text-black dark:text-white">
