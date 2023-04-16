@@ -37,9 +37,9 @@
 						Join Asterisc Today and Solidify your IT career
 					</p>
 					<div class="mt-6 flex gap-x-4">
-						<label for="email-address" class="sr-only">Email address</label>
+						<label for="search-courses" class="sr-only">Email address</label>
 						<input
-							id="email-address"
+							id="search-courses"
 							name="email"
 							type="email"
 							autocomplete="email"
@@ -319,7 +319,7 @@
 						tempor incididunt dolore.
 					</p> -->
 					<div class="mt-6 flex max-w-md gap-x-4">
-						<label for="email-address" class="sr-only">Email address</label>
+						<label for="email-address-subscribe" class="sr-only">Email address</label>
 						<input
 							id="email-address"
 							name="email"
