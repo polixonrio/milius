@@ -1,8 +1,9 @@
 <script>
-	import lazyload from 'vanilla-lazyload';
-	let lazyLoadInstance;
+	let lazyloadInstance;
+	import { onMount } from 'svelte';
+	import LazyLoad from "vanilla-lazyload";
 	onMount(() => {
- lazyloadInstance = new lazyload();
+ 	lazyloadInstance = new LazyLoad();
 }
 
 </script>
