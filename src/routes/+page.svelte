@@ -83,7 +83,7 @@
 					>
 						<img
 							class="col-span-2 rounded  mx-auto   w-22  object-contain lg:col-span-1"
-							src="https://cdn-icons-png.flaticon.com/512/2210/2210153.png"
+							src="images/webdev.webp"
 							alt="Transistor"
 							width="158"
 							height="48"
