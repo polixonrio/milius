@@ -131,8 +131,8 @@
 						alt="profile picture"
 					/>
 					<div class="space-y-0.5 font-medium dark:text-white text-left">
-						<div>Vatsal Maheshwari</div>
-						<div class="text-sm font-light text-gray-500 dark:text-gray-400">J.P. Morgan Chase</div>
+						<div>Srishti Mishra</div>
+						<!-- <div class="text-sm font-light text-gray-500 dark:text-gray-400">J.P. Morgan Chase</div> -->
 					</div>
 				</figcaption>
 			</figure>
@@ -140,11 +140,15 @@
 				class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700"
 			>
 				<blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-					<p class="my-4">
+					<div class="aspect-w-16 aspect-h-9">
+						<iframe src="https://www.youtube.com/embed/wevIc9MhtIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+					  </div>
+					<!-- <p class="my-4">
 						Asterisc institute was good for me in this lockdown because i managed to have some time i decided to upgrade my skills. Pooja mam and was helpful of me in many ways. This institute provide best online training. </p>
 						<p class="my-4"> 
 						They will provide proper guidance. This institute having good professional trainers who will train students easily and motivate students to learn the course. 					
-					</p>
+					</p> -->
 				</blockquote>
 				<figcaption class="flex justify-center items-center space-x-3">
 					<img
@@ -153,9 +157,9 @@
 						alt="profile picture"
 					/>
 					<div class="space-y-0.5 font-medium dark:text-white text-left">
-						<div>Srishti Mishra
+						<div>Kanishk Mishra
 						</div>
-						<div class="text-sm font-light text-gray-500 dark:text-gray-400">Amazon</div>
+						<!-- <div class="text-sm font-light text-gray-500 dark:text-gray-400">Amazon</div> -->
 					</div>
 				</figcaption>
 			</figure>
@@ -210,12 +214,12 @@
 			</figure>
 		</div>
 
-		<div class="text-center">
+		<!-- <div class="text-center">
 			<a
 				href="#"
 				class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
 				>Show more...</a
 			>
-		</div>
+		</div> -->
 	</div>
 </section>
