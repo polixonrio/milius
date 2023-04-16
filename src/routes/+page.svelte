@@ -1,6 +1,7 @@
 <script>
 	import { Button } from 'flowbite-svelte';
 	import { Heading, P, Hr, Img, Card, Label, Input, Checkbox } from 'flowbite-svelte';
+	import LearnMore from '../components/LearnMore.svelte';
 </script>
 
 <main class="dark:bg-gray-800 bg-gray-100  dark:text-gray-100">
@@ -48,19 +49,19 @@
 						/>
 						<button
 							type="submit"
-							class="flex-none rounded-md bg-purple-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+							class="flex-none rounded-md bg-purple-600 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
 							>Search</button
 						>
 					</div>
 					<div class="mt-10 flex items-center justify-center gap-x-6">
 						<a
 							href="/courses"
-							class="rounded-md bg-purple-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+							class="rounded-md bg-purple-600 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 							>Get started</a
 						>
 						<a
 							href="/contactus"
-							class="rounded-md bg-purple-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+							class="rounded-md bg-purple-600 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 							>Contact Us</a
 						>
 					</div>
@@ -90,11 +91,7 @@
 						<p class="text-center font-bold  md:text-5xl text-xl mb-10">
 							Web Development <br />
 
-							<a href="/courses"
-								><button class="border rounded px-3 hover:bg-purple-600 text-lg my-4"
-									>Learn Now</button
-								></a
-							>
+							<LearnMore />
 						</p>
 					</dd>
 				</div>
@@ -112,11 +109,7 @@
 						/>
 						<p class="text-center font-bold  md:text-5xl text-xl mb-10">
 							Mobile Development <br />
-							<a href="/courses"
-								><button class="border rounded px-3 hover:bg-purple-600 text-lg my-4"
-									>Learn Now</button
-								></a
-							>
+							<LearnMore />
 						</p>
 					</dd>
 				</div>
@@ -134,11 +127,7 @@
 						/>
 						<p class="text-center font-bold  md:text-5xl text-xl mb-10">
 							Software Testing <br />
-							<a href="/courses"
-								><button class="border rounded px-3 hover:bg-purple-600 text-lg my-4"
-									>Learn Now</button
-								></a
-							>
+							<LearnMore />
 						</p>
 					</dd>
 				</div>
@@ -156,11 +145,7 @@
 						/>
 						<p class="text-center font-bold  md:text-5xl text-xl mb-10">
 							Programming Language <br />
-							<a href="/courses"
-								><button class="border rounded px-3 hover:bg-purple-600 text-lg my-4"
-									>Learn Now</button
-								></a
-							>
+							<LearnMore />
 						</p>
 					</dd>
 				</div>
@@ -178,11 +163,7 @@
 						/>
 						<p class="text-center font-bold  md:text-5xl text-xl mb-10">
 							Database Design <br />
-							<a href="/courses"
-								><button class="border rounded px-3 hover:bg-purple-600 text-lg my-4"
-									>Learn Now</button
-								></a
-							>
+							<LearnMore />
 						</p>
 					</dd>
 				</div>
@@ -200,11 +181,7 @@
 						/>
 						<p class="text-center font-bold  md:text-5xl text-xl mb-10">
 							Machine Learning <br />
-							<a href="/courses"
-								><button class="border rounded px-3 hover:bg-purple-600 text-lg my-4"
-									>Learn Now</button
-								></a
-							>
+							<LearnMore />
 						</p>
 					</dd>
 				</div>
