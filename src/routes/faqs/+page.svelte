@@ -4,7 +4,7 @@
 </script>
 
 
-<main class="pt-12">
+<main class=" mt-4 pt-12">
 	<Fq />
 </main>
 
