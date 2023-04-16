@@ -174,7 +174,7 @@
 					>
 						<img
 							class="col-span-2  mx-auto  rounded w-22 object-contain lg:col-span-1"
-							src="https://cdn.pixabay.com/photo/2022/01/03/19/56/machine-learning-6913525_1280.png"
+							src="images/ml.webp"
 							alt="Transistor"
 							width="158"
 							height="48"
