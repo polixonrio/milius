@@ -4,7 +4,7 @@
 	import LazyLoad from "vanilla-lazyload";
 	onMount(() => {
  	lazyloadInstance = new LazyLoad();
-}
+	});
 
 </script>
 
