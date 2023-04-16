@@ -81,7 +81,7 @@
 						class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 					>
 						<img
-							class="col-span-2 rounded  mx-auto   w-22  object-contain lg:col-span-1"
+							class="col-span-2 rounded  mx-auto   w-16  object-contain lg:col-span-1"
 							src="images/webdev.webp"
 							alt="Transistor"
 							width="158"
@@ -100,7 +100,7 @@
 						class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 					>
 						<img
-							class="col-span-2   mx-auto rounded  w-22  object-contain lg:col-span-1"
+							class="col-span-2   mx-auto rounded  w-16  object-contain lg:col-span-1"
 							src="images/mobdev.webp"
 							alt="Transistor"
 							width="158"
@@ -118,7 +118,7 @@
 						class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 					>
 						<img
-							class="col-span-2  mx-auto rounded  w-22  object-contain lg:col-span-1"
+							class="col-span-2  mx-auto rounded  w-16  object-contain lg:col-span-1"
 							src="images/testing.webp"
 							alt="Transistor"
 							width="158"
@@ -136,7 +136,7 @@
 						class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 					>
 						<img
-							class="col-span-2   mx-auto rounded  w-22  object-contain lg:col-span-1"
+							class="col-span-2   mx-auto rounded  w-16  object-contain lg:col-span-1"
 							src="images/coding.webp"
 							alt="Transistor"
 							width="158"
@@ -154,7 +154,7 @@
 						class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 					>
 						<img
-							class="col-span-2  mx-auto rounded  w-22  object-contain lg:col-span-1"
+							class="col-span-2  mx-auto rounded  w-16  object-contain lg:col-span-1"
 							src="images/database.webp"
 							alt="Transistor"
 							width="158"
@@ -172,7 +172,7 @@
 						class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 					>
 						<img
-							class="col-span-2  mx-auto  rounded w-22 object-contain lg:col-span-1"
+							class="col-span-2  mx-auto  rounded w-16 object-contain lg:col-span-1"
 							src="images/ml.webp"
 							alt="Transistor"
 							width="158"
@@ -281,7 +281,7 @@
 			<ul class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
 				<li>
 					<div class="flex items-center gap-x-6">
-						<img class="h-26 w-26 rounded-full" src="/images/csir.webp" alt="" />
+						<img class="h-20 w-20 rounded-full" src="/images/csir.webp" alt="" />
 						<div class="">
 							<h3
 								class="text-xl  font-semibold  leading-7 tracking-tight dark:text-white text-gray-900"
@@ -295,7 +295,7 @@
 
 				<li>
 					<div class="flex items-center gap-x-6">
-						<img class="h-26 w-26 rounded-full" src="/images/hsir.webp" alt="" />
+						<img class="h-20 w-20 rounded-full" src="/images/hsir.webp" alt="" />
 						<div>
 							<h3
 								class="text-xl font-semibold leading-7 tracking-tight dark:text-white text-gray-900"
@@ -309,7 +309,7 @@
 
 				<li>
 					<div class="flex items-center gap-x-6">
-						<img class="h-26 w-26 rounded-full" src="/images/pmaam.webp" alt="" />
+						<img class="h-20 w-20 rounded-full" src="/images/pmaam.webp" alt="" />
 						<div>
 							<h3
 								class="text-xl font-semibold leading-7 tracking-tight dark:text-white text-gray-900"
@@ -323,7 +323,7 @@
 
 				<li>
 					<div class="flex items-center gap-x-6">
-						<img class="h-26 w-26 rounded-full" src="/images/ssir.webp" alt="" />
+						<img class="h-20 w-20 rounded-full" src="/images/ssir.webp" alt="" />
 						<div>
 							<h3
 								class="text-xl font-semibold leading-7 tracking-tight dark:text-white text-gray-900"
