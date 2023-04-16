@@ -1,4 +1,4 @@
-<section class="bg-white mt-4 dark:bg-gray-900">
+<section class="bg-white mt-12 dark:bg-gray-900">
 	<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
 		<div class="mx-auto max-w-screen-sm">
 			<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
