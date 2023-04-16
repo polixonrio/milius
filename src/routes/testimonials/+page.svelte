@@ -141,8 +141,7 @@
 			>
 				<blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
 					<div class="aspect-w-16 aspect-h-9">
-						<iframe src="https://www.youtube.com/embed/wevIc9MhtIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+						<iframe src="https://www.youtube.com/embed/jE4wYC-PjuE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					  </div>
 					<!-- <p class="my-4">
 						Asterisc institute was good for me in this lockdown because i managed to have some time i decided to upgrade my skills. Pooja mam and was helpful of me in many ways. This institute provide best online training. </p>
