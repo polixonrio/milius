@@ -25,6 +25,7 @@
 
 	function setActive(index: number) {
 		active = index;
+		showMenu = !showMenu;
 	}
 
 	let showMenu = false;
