@@ -67,7 +67,6 @@
 					</div>
 				</div>
 			</div>
-			
 		</div>
 	</div>
 
@@ -240,54 +239,34 @@
 			<p class="text-center font-bold  md:text-6xl text-2xl mb-10">
 				LEARN <span class=" text-purple-600 "> MORE </span>NOW
 			</p>
-			<dl class="grid grid-cols-1 gap-x-8 gap-y-6 text-center lg:grid-cols-2">
+			<div class="grid grid-cols-1 gap-x-8 gap-y-6 text-center lg:grid-cols-2">
 				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
-					<dd
+					<div
 						class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 					>
-						<img
-							class="col-span-2 rounded  mx-auto   w-22  object-contain lg:col-span-1"
-							src="images/webdev.webp"
-							alt="Transistor"
-							width="158"
-							height="48"
-						/>
+						
 						<p class="text-center font-bold  md:text-5xl text-xl mb-10">
-							Web Development <br />
+							<iframe class="lazy aspect-video player-ratio" title="testimonial" data-src="https://www.youtube.com/embed/wevIc9MhtIk"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							
+							<br />
 
-							<LearnMore />
 						</p>
-					</dd>
+					</div>
 				</div>
 
-			
-
+				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
+					<div
+						class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
+					>
 				
-
-	
-
-
-				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
-					<dd
-						class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
-					>
-						<img
-							class="col-span-2  mx-auto  rounded w-22 object-contain lg:col-span-1"
-							src="images/ml.webp"
-							alt="Transistor"
-							width="158"
-							height="48"
-						/>
 						<p class="text-center font-bold  md:text-5xl text-xl mb-10">
-							Machine Learning <br />
-							<LearnMore />
+							Students Success Journey Build App during lockdown and earn profit <br />
 						</p>
-					</dd>
+					</div>
 				</div>
-			</dl>
+			</div>
 		</div>
 	</div>
-
 
 	<div class="bg-white dark:bg-black py-24 sm:py-32">
 		<div class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
@@ -299,7 +278,7 @@
 					We have an excellent team of Instructors to guide you.
 				</p>
 			</div>
-			<ul  class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+			<ul class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
 				<li>
 					<div class="flex items-center gap-x-6">
 						<img class="h-26 w-26 rounded-full" src="/images/csir.webp" alt="" />
