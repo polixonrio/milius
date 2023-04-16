@@ -244,9 +244,9 @@
 					<div
 						class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 					>
-						
+					<iframe class="lazy aspect-video player-ratio" title="testimonial" data-src="https://www.youtube.com/embed/wevIc9MhtIk"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						<p class="text-center font-bold  md:text-5xl text-xl mb-10">
-							<iframe class="lazy aspect-video player-ratio" title="testimonial" data-src="https://www.youtube.com/embed/wevIc9MhtIk"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							
 							
 							<br />
 
