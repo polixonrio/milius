@@ -130,13 +130,10 @@
 			<figure
 				class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700"
 			>
-				<blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-					<div class="aspect-w-16 aspect-h-9">
-						<iframe class="lazy player-ratio" title="testimonial" data-src="https://www.youtube.com/embed/wevIc9MhtIk"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
-					  </div>
-
-				</blockquote>
+			<div class="aspect-w-16 aspect-h-9">
+				<iframe class="lazy player-ratio" title="testimonial" data-src="https://www.youtube.com/embed/wevIc9MhtIk"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+			  </div>
 				<figcaption class="flex justify-center items-center space-x-3">
 			
 					<div class="space-y-0.5 font-medium dark:text-white text-left">
