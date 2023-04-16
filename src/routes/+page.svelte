@@ -99,7 +99,7 @@
 							Web Development <br />
 
 							<a href="/courses"
-								><button class="border rounded px-3 hover:bg-purple-600 text-lg my-4"
+								><button class="border rounded px-4 hover:bg-purple-600 text-xl my-4"
 									>Learn Now</button
 								></a
 							>
@@ -194,7 +194,7 @@
 						</p>
 					</dd>
 				</div>
-
+				<Hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
 				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
 					<dd
 						class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
@@ -265,8 +265,8 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="bg-white dark:bg-black py-24 sm:py-32">
+	<Hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+	<div class="bg-white dark:bg-black py-14 sm:py-22">
 		<div class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
 			<div class="max-w-2xl">
 				<h2 class="text-3xl font-bold tracking-tight dark:text-white text-gray-900 sm:text-4xl">
@@ -276,7 +276,7 @@
 					We have an excellent team of Instructors to guide you.
 				</p>
 			</div>
-			<ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+			<ul class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
 				<li>
 					<div class="flex items-center gap-x-6">
 						<img class="h-16 w-16 rounded-full" src="/images/csir.webp" alt="" />
