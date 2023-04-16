@@ -127,13 +127,11 @@
 				class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700"
 			>
 			
-				<figcaption class="flex justify-center items-center space-x-3">
 					<iframe class="lazy player-ratio" title="testimonial" data-src="https://www.youtube.com/embed/wevIc9MhtIk"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<div class="space-y-0.5 font-medium dark:text-white text-left">
 						<div>Srishti Mishra</div>
 						<!-- <div class="text-sm font-light text-gray-500 dark:text-gray-400">J.P. Morgan Chase</div> -->
 					</div>
-				</figcaption>
 			</figure>
 			<figure
 				class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700"
