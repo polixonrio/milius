@@ -1,9 +1,9 @@
 <script>
-	let lazyloadInstance;
+	let lazyLoadInstance;
 	import { onMount } from 'svelte';
-	import LazyLoad from "vanilla-lazyload";
+	import lazyload  from "vanilla-lazyload";
 	onMount(() => {
- 	lazyloadInstance = new LazyLoad();
+		lazyLoadInstance = new lazyload();
 	});
 
 </script>
@@ -132,7 +132,6 @@
  
 					  </div>
 
-					<p class="my-4">If you care for your time, I hands down would go with this."</p>
 				</blockquote>
 				<figcaption class="flex justify-center items-center space-x-3">
 			
