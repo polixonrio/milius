@@ -136,7 +136,7 @@
 			>
 			
 				<figcaption class="flex justify-center items-center space-x-3">
-			
+					<iframe class="lazy player-ratio" title="testimonial" data-src="https://www.youtube.com/embed/wevIc9MhtIk"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					<div class="space-y-0.5 font-medium dark:text-white text-left">
 						<div>Srishti Mishra</div>
 						<!-- <div class="text-sm font-light text-gray-500 dark:text-gray-400">J.P. Morgan Chase</div> -->
