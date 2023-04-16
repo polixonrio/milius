@@ -127,13 +127,14 @@
 		  </div>
 		  <iframe title="testimonial" src="https://www.youtube.com/embed/jE4wYC-PjuE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<div class="grid mb-8 lg:mb-12 lg:grid-cols-2">
-			<figure
-				class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700"
-			>
 			<div class="aspect-w-16 aspect-h-9">
 				<iframe class="lazy player-ratio" title="testimonial" data-src="https://www.youtube.com/embed/wevIc9MhtIk"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	
 			  </div>
+			<figure
+				class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700"
+			>
+			
 				<figcaption class="flex justify-center items-center space-x-3">
 			
 					<div class="space-y-0.5 font-medium dark:text-white text-left">
