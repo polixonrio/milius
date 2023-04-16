@@ -135,11 +135,7 @@
 					<p class="my-4">If you care for your time, I hands down would go with this."</p>
 				</blockquote>
 				<figcaption class="flex justify-center items-center space-x-3">
-					<img
-						class="w-9 h-9 rounded-full"
-						src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
-						alt="karen"
-					/>
+			
 					<div class="space-y-0.5 font-medium dark:text-white text-left">
 						<div>Srishti Mishra</div>
 						<!-- <div class="text-sm font-light text-gray-500 dark:text-gray-400">J.P. Morgan Chase</div> -->
@@ -151,7 +147,7 @@
 			>
 				<blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
 					<div class="aspect-w-16 aspect-h-9">
-						<iframe class="lazy" title="testimonial" data-src="https://www.youtube.com/embed/jE4wYC-PjuE"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe class="lazy" title="testimonial"  src="" data-src="https://www.youtube.com/embed/jE4wYC-PjuE"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					  </div>
 					<!-- <p class="my-4">
 						Asterisc institute was good for me in this lockdown because i managed to have some time i decided to upgrade my skills. Pooja mam and was helpful of me in many ways. This institute provide best online training. </p>
@@ -160,11 +156,7 @@
 					</p> -->
 				</blockquote>
 				<figcaption class="flex justify-center items-center space-x-3">
-					<img
-						class="w-9 h-9 rounded-full"
-						src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png"
-						alt="profile"
-					/>
+					
 					<div class="space-y-0.5 font-medium dark:text-white text-left">
 						<div>Kanishk Mishra
 						</div>
