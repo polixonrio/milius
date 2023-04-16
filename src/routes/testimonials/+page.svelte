@@ -1,3 +1,12 @@
+<script>
+	import lazyload from 'vanilla-lazyload';
+	let lazyLoadInstance;
+	onMount(() => {
+ lazyloadInstance = new lazyload();
+}
+
+</script>
+
 <section class="bg-white mt-12 dark:bg-gray-900">
 	<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
 		<div class="mx-auto max-w-screen-sm">
@@ -118,8 +127,8 @@
 			>
 				<blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
 					<div class="aspect-w-16 aspect-h-9">
-						<iframe title="testimonial" src="https://www.youtube.com/embed/wevIc9MhtIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+						<iframe class="lazy" title="testimonial" data-src="https://www.youtube.com/embed/wevIc9MhtIk"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
 					  </div>
 
 					<p class="my-4">If you care for your time, I hands down would go with this."</p>
@@ -141,7 +150,7 @@
 			>
 				<blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
 					<div class="aspect-w-16 aspect-h-9">
-						<iframe title="testimonial" src="https://www.youtube.com/embed/jE4wYC-PjuE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe title="testimonial" src="https://www.youtube.com/embed/wevIc9MhtIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					  </div>
 					<!-- <p class="my-4">
 						Asterisc institute was good for me in this lockdown because i managed to have some time i decided to upgrade my skills. Pooja mam and was helpful of me in many ways. This institute provide best online training. </p>
@@ -207,12 +216,5 @@
 			</figure>
 		</div>
 
-		<!-- <div class="text-center">
-			<a
-				href="#"
-				class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-				>Show more...</a
-			>
-		</div> -->
-	</div>
+
 </section>
