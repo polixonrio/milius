@@ -63,11 +63,16 @@
 	// 	'flex flex-col p-4 text-center mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium';
 </script>
 
+
 <!-- <svelte:window bind:innerWidth={width} /> -->
 
-<header class="sticky shadow-xl dark:shadow-indigo-500/50 top-0 z-50 ">
 
-	<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+
+
+
+<header class="sticky shadow-xl dark:shadow-white top-0 z-50 ">
+
+	<nav class="bg-white dark:bg-gray-900 shadow-xl dark:shadow-blue-500/50 fixed w-full z-20 top-0 left-0 ">
 		<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 		<a on:click={toggleNavbar} href="/" class="flex items-center">
 			<img  src="images/logos.webp"  class="h-8 mr-3" alt="Asterisc Logo">
@@ -85,22 +90,22 @@
 		<div class="items-center justify-between w-full md:flex md:w-auto md:order-1 text-center {showMenu ? '' : 'hidden'} " id="navbar-sticky">
 		  <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
 			<li>
-			  <a href="/" on:click={()=>setActive(0)} class="block py-2 pl-3 pr-4 {active === 0 ? 'bg-purple-800 md:text-purple-800' : 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Home</a>
+			  <a href="/" on:click={()=>setActive(0)} class="block py-2 pl-3 pr-4 {active === 0 ? 'bg-purple-800 md:text-purple-800 md:dark:text-purple-800' : 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Home</a>
 			</li>
 			<li>
-			  <a href="/aboutus"  on:click={()=>setActive(1)} class="block py-2 pl-3 pr-4 {active === 1 ? 'bg-purple-800 md:text-purple-800' : 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About Us</a>
+			  <a href="/aboutus"  on:click={()=>setActive(1)} class="block py-2 pl-3 pr-4 {active === 1 ? 'bg-purple-800 md:text-purple-800 md:dark:text-purple-800' : 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About Us</a>
 			</li>
 			<li>
-			  <a href="/testimonials"  on:click={()=>setActive(2)} class="block py-2 pl-3 pr-4 {active === 2 ? 'bg-purple-800 md:text-purple-800' : 'bg-transparent'} sm:bg-transparent  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Testimonials</a>
+			  <a href="/testimonials"  on:click={()=>setActive(2)} class="block py-2 pl-3 pr-4 {active === 2 ? 'bg-purple-800 md:text-purple-800 md:dark:text-purple-800' : 'bg-transparent'} sm:bg-transparent  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Testimonials</a>
 			</li>
 			<li>
-			  <a href="/contactus"  on:click={()=>setActive(3)} class="block py-2 pl-3 pr-4 {active === 3 ? 'bg-purple-800 md:text-purple-800' : 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+			  <a href="/contactus"  on:click={()=>setActive(3)} class="block py-2 pl-3 pr-4 {active === 3 ? 'bg-purple-800 md:text-purple-800 md:dark:text-purple-800' : 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
 			</li>
 			<li>
-				<a href="/faqs"   on:click={()=>setActive(4)} class="block py-2 pl-3 pr-4 {active === 4 ? 'bg-purple-800 md:text-purple-800' : 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">FAQs</a>
+				<a href="/faqs"   on:click={()=>setActive(4)} class="block py-2 pl-3 pr-4 {active === 4 ? 'bg-purple-800 md:text-purple-800 md:dark:text-purple-800 ' : 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">FAQs</a>
 			  </li>
 			  <li>
-				<a href="https://astr-one.vercel.app/" on:click={()=>setActive(5)} class="block py-2 pl-3 pr-4 {active === 5 ? 'bg-purple-800 md:text-purple-800' : ''}  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
+				<a href="https://astr-one.vercel.app/" on:click={()=>setActive(5)} class="block py-2 pl-3 pr-4 {active === 5 ? 'bg-purple-800 md:text-purple-800 md:dark:text-purple-800' : ''}  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
 			  </li>
 			  <!-- <li>
 				<a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>

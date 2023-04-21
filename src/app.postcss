@@ -2,12 +2,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import '@fontsource/poppins';
 /* Write your global styles here, in PostCSS syntax */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+:root {
+  --primary: black;
+  --secondary: white;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 14px;
+  border: 3px solid var(--primary);
+}
+
+
+
+
+
 @tailwind base;
 
 /* Write your global styles here, in PostCSS syntax */
 
-@tailwind base;
+
+
 @tailwind components;
 @tailwind utilities;
-@tailwind components;
-@tailwind utilities;
+
+
+

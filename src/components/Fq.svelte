@@ -1,9 +1,7 @@
 <script>
 	import { AccordionItem, Accordion, Button } from 'flowbite-svelte';
-	const items = Array(3);
+	const items = Array(5);
 
-	const open_all = () => items.forEach((_, i) => (items[i] = true));
-	const close_all = () => items.forEach((_, i) => (items[i] = false));
 </script>
 
 <section class="dark:bg-gray-800 dark:text-gray-100">
@@ -20,7 +18,7 @@
 				inactiveClasses="text-gray-500 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800"
 			>
 				<AccordionItem bind:open={items[0]}>
-					<span slot="header">HOW MANY HOURS DAILY LECTURES WILL BE ?</span>
+					<span slot="header">How many hours daily lectures will be ?</span>
 					<p class="mb-2 text-gray-500 dark:text-gray-400">
 						1 hour teaching and 1 hour practical. Along with that you’ll also have daily homework
 						discussion and doubt resolution sessions with your Mentors. You’ll also be given
@@ -28,10 +26,10 @@
 					</p>
 				</AccordionItem>
 				<AccordionItem bind:open={items[1]}>
-					<div slot="header">WILL I GET A JOB ASSURED AFTER COMPLETING THIS TRAINING ?</div>
+					<div slot="header">Will i get a job assured after completing this training ?</div>
 					<p class="mb-2 text-gray-500 dark:text-gray-400">
 						Your knowledge skills will be in high demand, and future will be bright, but like most
-						important things in life, your prospective employment in the world depends on how hard
+						2important things in life, your prospective employment in the world depends on how hard
 						you work. If you consistently apply throughout the 6 months job industrial training
 						program and during your job search, then your chances look really good. You will also
 						need to be well-prepared for your job interviews. The thing is that we will be assist
@@ -45,7 +43,7 @@
 				</AccordionItem>
 
 				<AccordionItem bind:open={items[2]}>
-					<span slot="header">WHAT ARE THE VARIOUS MODE OF PAYMENT ACCEPTED HERE ?</span>
+					<span slot="header">What are the various modes of payments accepted here ?</span>
 					<p class="mb-2 text-gray-500 dark:text-gray-400">
 						You can make payment Via Cash, online payments.
 					</p>
@@ -53,8 +51,7 @@
 
 				<AccordionItem bind:open={items[3]}>
 					<span slot="header"
-						>I DO NOT HAVE A COMPUTER PROGRAMMING BACKGROUND. CAN I STILL TAKE THIS COURSE & GET
-						JOB?
+						>I do not have a computer programming background. Can i still take this course and get job ?
 					</span>
 					<p class="mb-2 text-gray-500 dark:text-gray-400">
 						Our Course curriculum is designed for new freshers candidates and is advised by Industry
@@ -70,7 +67,7 @@
 
 				<AccordionItem bind:open={items[4]}>
 					<span slot="header"
-						>CAN I PAY WHOLE AMOUNT AT ONCE ?
+						>Can i pay whole amount at once ?
 					</span>
 					<p class="mb-2 text-gray-500 dark:text-gray-400">
 						Yes, you will have the option to pay in full, directly to Asterisc at a 20% discount.
@@ -79,7 +76,8 @@
 
 				<AccordionItem bind:open={items[5]}>
 					<span slot="header"
-						>IS IT POSSIBLE THAT THE COURSE MIGHT GET EXTENDED TO MORE THAN THE PRE DECIDED TIME?
+						>
+						Is it possible that the course might get extended to more than pre decided time ?
 					</span>
 					<p class="mb-2 text-gray-500 dark:text-gray-400">
                         Yes, sometimes depending on the pace of the batch, the course might get extended by a bit. In the end, we want to make sure that none of our students get left behind. To ensure this we sometimes have to take repeat lectures or slow down the pace of the batch.
