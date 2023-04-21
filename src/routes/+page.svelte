@@ -1,6 +1,6 @@
 <script>
 	import { Button } from 'flowbite-svelte';
-	import { Heading, P, Hr, Img, Card, Label, Input, Checkbox } from 'flowbite-svelte';
+	import {  P, Hr,  Card, Label, Input } from 'flowbite-svelte';
 	import LearnMore from '../components/LearnMore.svelte';
 </script>
 
@@ -202,10 +202,8 @@
 		</div>
 	</div> -->
 
-
-
-	<div class="bg-white  dark:bg-black py-16 sm:py-16 bg-cover bg-center sm:bg-center" >
-		<div class="  grid grid-cols-1 flex-wrap mx-auto max-w-7xl px-6 lg:px-8" >
+	<div class="bg-white  dark:bg-black py-16 sm:py-16 bg-cover bg-center sm:bg-center">
+		<div class="  grid grid-cols-1 flex-wrap mx-auto max-w-7xl px-6 lg:px-8">
 			<p class="text-center mx-auto font-bold  md:text-6xl text-2xl mb-10">
 				LEARN <span class=" text-purple-600 "> MORE </span>NOW
 			</p>
@@ -342,29 +340,34 @@
 				LEARN <span class=" text-purple-600 "> MORE </span>NOW
 			</p>
 			<div class="grid grid-cols-1 gap-x-8 gap-y-6 text-center lg:grid-cols-2">
-				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
+				<div class="w-full h-96 ">
 					<iframe
-						class="aspect-video object-cover "
-						title="testimonial"
-						src="https://www.youtube.com/embed/jE4wYC-PjuE"
+						class="aspect-video h-96 w-full"
 						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 						allowfullscreen
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						title="College Students Develop mobile app in lockdown and start earning | NAGPUR"
+						width="640"
+						height="360"
+						src="https://www.youtube.com/embed/T9ITgDZWDZg?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=0&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fasterisc.in&amp;widgetid=1"
+						id="widget2"
 					/>
 				</div>
+				<div>
+					<p class="text-left font-bold  md:text-5xl text-xl mb-10">
+						Students Success Journey Build App during lockdown and earn profit <br />
+					</p>
+					<p class="text-center font-sm   text-base mb-10">
+						Check out the success story of our students. Student Interview sharing there experience.
+						Do you have big dreams & if you want to succeed In life journey.
 
-				<div class="mx-auto flex max-w-xs flex-col gap-y-4">
-					<div
-						class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
-					>
-						<p class="text-center font-bold  md:text-5xl text-xl mb-10">
-							Students Success Journey Build App during lockdown and earn profit <br />
-						</p>
-					</div>
+						<br />
+					</p>
 				</div>
 			</div>
 		</div>
 	</div>
+
 	<section class="bg-white dark:bg-gray-900">
 		<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
 			<div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
@@ -830,12 +833,10 @@
 	}
 
 	.bg-image-light {
-  background-image: url('/images/ver.svg');
-}
+		background-image: url('/images/ver.svg');
+	}
 
-.bg-image-dark {
-  background-image: url('/images/ty.webp');
-}
-
-
+	.bg-image-dark {
+		background-image: url('/images/ty.webp');
+	}
 </style>
