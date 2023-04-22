@@ -2,19 +2,27 @@
 	import { Button } from 'flowbite-svelte';
 	import {  P, Hr,  Card, Label, Input } from 'flowbite-svelte';
 	import LearnMore from '../components/LearnMore.svelte';
+	import AOS from 'aos';
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		AOS.init();
+		AOS.refresh();
+	});
+
 </script>
 
 <main class="dark:bg-gray-800 bg-gray-100  dark:text-gray-100  ">
 	<section
-		class="  pt-12 h-screen flex items-center justify-center bg-cover bg-center sm:bg-center bg-image-one dark:bg-image-two
+		class="  pt-12 h-screen flex items-center justify-center bg-cover bg-center sm:bg-center bg-image-one dark:bg-image-two 
 		bg-no-repeat	 dark:bg-gray-900"
 	>
 		<div
 			class="w-full h-full flex  justify-center items-center 
              "
 		>
-			<div
-				class="    py-8 px-4  mx-auto max-w-screen-xl align-middle text-center lg:py-16 lg:px-12"
+			<div 
+				class="py-8 px-4  mx-auto max-w-screen-xl align-middle text-center lg:py-16 lg:px-12"
 			>
 				<a
 					href="/testimonials"
@@ -203,16 +211,22 @@
 	</div> -->
 
 	<div class="bg-white  dark:bg-black py-16 sm:py-16 bg-cover bg-center sm:bg-center">
-		<div class="  grid grid-cols-1 flex-wrap mx-auto max-w-7xl px-6 lg:px-8">
-			<p class="text-center mx-auto font-bold  md:text-6xl text-2xl mb-10">
+		<div 			
+		class="  grid grid-cols-1 flex-wrap mx-auto max-w-7xl px-6 lg:px-8 ">
+			
+			<p 
+
+
+			class="text-center mx-auto font-bold  md:text-6xl text-2xl mb-10 " >
 				LEARN <span class=" text-purple-600 "> MORE </span>NOW
 			</p>
-			<div class="grid sm:grid-cols-3 mx-auto grid-cols-1 gap-4">
+			<div   class="grid sm:grid-cols-3 mx-auto grid-cols-1 gap-4  " >
+
 				<div
-					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
+					class=" text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl   " 
 				>
 					<div class="flex overflow-y-hidden overflow-x-hidden ">
-						<img src="images/webdev.webp" alt="movie" class="w-48 h-48 mx-auto  object-contain" />
+						<img src="images/webdev.webp" alt="movie" class="w-48 h-48 mx-auto  object-contain " />
 					</div>
 					<p class="text-center object-contain font-bold  md:text-4xl text-xl mb-10">
 						Web Developmment <br />
@@ -370,6 +384,7 @@
 
 	<section class="bg-white dark:bg-gray-900">
 		<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+			
 			<div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
 				<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
 					Meet our leadership
@@ -789,42 +804,31 @@
 		</div>
 	</section> -->
 
-	<section id="getstarted" class="  bg-purple-500 dark:bg-blue-400 ">
-		<div class="container flex flex-col items-center justify-center p-4 mx-auto md:p-8">
-			<Hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+	<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
 
-			<h2
-				class="mb-4 text-4xl tracking-tight font-semibold text-center text-white dark:text-gray-900"
-			>
-				Get a free consultation call from our experts
-			</h2>
-			<h2 class="mb-4 text-2xl tracking-tight font-lg text-white text-center  dark:text-gray-900">
-				Take advantage of our free consultation call and let our experts help you to choose the best
-				career.
-			</h2>
-
-			<Card>
-				<form class="flex flex-col justify-center px-9 space-y-6" action="/">
-					<Label class="space-y-2">
-						<span>Name </span>
-						<Input type="text" name="Name" placeholder="Name" required />
-					</Label>
-					<Label class="space-y-2">
-						<span>Email</span>
-						<Input type="email" name="email" placeholder="Email" required />
-					</Label>
-					<Label class="space-y-2">
-						<span>Mobile Number</span>
-						<Input type="text" name="Mobile Number" placeholder="Mobile Number" required />
-					</Label>
-
-					<Button type="submit" class="w-full">Let's Talk</Button>
-				</form>
-			</Card>
-
-			<Hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+	<section class="bg-white dark:bg-gray-900 rounded-xl">
+		<div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+			<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
+			<p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Take advantage of our free consultation call and let our experts help you to choose the best career.</p>
+			<form action="#" class="space-y-8">
+				<div>
+					<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
+					<input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required>
+				</div>
+				<div>
+					<label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+					<input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Let us know how we can help you" required>
+				</div>
+				<div class="sm:col-span-2">
+					<label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
+					<textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+				</div>
+				<button type="submit" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+			</form>
 		</div>
-	</section>
+	  </section>
+	</div>
+
 </main>
 
 <style>
