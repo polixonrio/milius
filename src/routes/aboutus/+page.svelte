@@ -20,7 +20,7 @@
 					<p class="text-left font-bold text-[44px] md:text-left">We are Asterisc..!</p>
 
 
-					<p class="text-lg font-normal text-left md:text-left  text-gray-900 dark:text-gray-200 py-4 ">
+					<p class="text-lg font-normal text-justify md:text-left  text-gray-900 dark:text-gray-200 py-4 ">
 						Asterisc Computer Institute is a premier IT education Institute . The institute provides
 						a wide variety of professional career, short term and certification courses, designed by
 						our experts. Our trainers constantly update their technical skills to maintain their
@@ -44,7 +44,7 @@
 				<div class="md:order-2 ">
 					<p class="text-left font-bold text-5xl md:text-left">Our Mission</p>
 
-					<p class="text-lg font-normal  text-left md:text-left text-gray-900 dark:text-gray-200 py-4">
+					<p class="text-lg font-normal  text-justify md:text-left text-gray-900 dark:text-gray-200 py-4">
 						Our Approach for technology Training recognises critical IT Skills which provides early
 						and midcareer professionals opportunities to excel in their Careers. We facilitate
 						individuals, professionals and entrepreneurs to up skill and retrain their software
@@ -68,7 +68,7 @@
 				<div class="md:order-2">
 					<p class="text-left font-bold text-5xl md:text-left">Our Vision</p>
 
-					<p class="text-lg text-left md:text-left font-normal text-gray-900 dark:text-gray-200 py-4">
+					<p class="text-lg text-justify md:text-left font-normal text-gray-900 dark:text-gray-200 py-4">
 						The Institute is committed to develop Information Technologies professional with
 						specialization skills to resolve problems at the place of work. To achieve the
 						characteristics of leadership & skills. We will achieve our vision by: Providing

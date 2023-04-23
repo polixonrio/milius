@@ -70,7 +70,7 @@
 	<nav
 		class="bg-white dark:bg-gray-900 shadow-xl dark:shadow-blue-500/50 fixed w-full z-20 top-0 left-0 "
 	>
-		<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+		<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
 			<a href="/" class="flex items-center">
 				<img src="images/logos.webp" class="h-8 w-8 mr-3" alt="Asterisc Logo" />
 				<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"

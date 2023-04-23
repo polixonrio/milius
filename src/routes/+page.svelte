@@ -52,7 +52,7 @@
 					>
 				</a>
 				<h1
-					class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
+					class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-3xl dark:text-white"
 				>
 					<p>Programming is <span class=" text-purple-600 "> MORE </span> difficult, Join Now</p>
 				</h1>
@@ -221,7 +221,7 @@
 
 	<div class="bg-white  dark:bg-black py-16 sm:py-16 bg-cover bg-center sm:bg-center">
 		<div class="  grid grid-cols-1 flex-wrap mx-auto max-w-7xl px-6 lg:px-8 ">
-			<p class="text-center mx-auto font-bold  md:text-6xl text-2xl mb-10 ">
+			<p class="text-center mx-auto font-bold  md:text-4xl text-2xl mb-10 ">
 				LEARN <span class=" text-purple-600 "> MORE </span>NOW
 			</p>
 			<div class="grid sm:grid-cols-3 mx-auto grid-cols-1 gap-4  ">
