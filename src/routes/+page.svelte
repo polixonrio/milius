@@ -4,6 +4,16 @@
 	import LearnMore from '../components/LearnMore.svelte';
 	import AOS from 'aos';
 	import { onMount } from 'svelte';
+	import emailjs from '@emailjs/browser';
+	
+	function sendEmail(e) {
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log('SUCCESS!', result.text);
+      }, (error) => {
+          console.log('FAILED...', error.text);
+      });
+  }
 
 	onMount(() => {
 		AOS.init();
@@ -56,7 +66,7 @@
 					class="flex flex-col mb-4 lg:mb-10 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"
 				>
 					<a
-						href="#"
+						href="/aboutus"
 						class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-purple-700 hover:bg-purple-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
 					>
 						Learn more
@@ -73,7 +83,7 @@
 						>
 					</a>
 					<a
-						href="#"
+						href="#wat"
 						class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
 					>
 						<svg
@@ -225,10 +235,10 @@
 				<div
 					class=" text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl   " 
 				>
-					<div class="flex overflow-y-hidden overflow-x-hidden ">
-						<img src="images/webdev.webp" alt="movie" class="w-48 h-48 mx-auto  object-contain " />
+					<div class="flex overflow-y-hidden  overflow-x-hidden ">
+						<img src="images/webdev.webp" alt="movie" class="w-40  h-40 mx-auto  object-contain " />
 					</div>
-					<p class="text-center object-contain font-bold  md:text-4xl text-xl mb-10">
+					<p class="text-center object-contain font-bold  md:text-3xl text-xl mb-6">
 						Web Developmment <br />
 						<LearnMore />
 					</p>
@@ -238,10 +248,10 @@
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
 					<div class="flex overflow-y-hidden overflow-x-hidden ">
-						<img src="images/ml.webp" alt="movie" class="w-48 h-48 mx-auto object-contain" />
+						<img src="images/ml.webp" alt="movie" class="w-40  h-40 mx-auto object-contain" />
 					</div>
 
-					<p class="text-center font-bold object-contain md:text-4xl text-xl mb-10">
+					<p class="text-center font-bold object-contain md:text-3xl text-xl mb-6">
 						Machine Learning <br />
 						<LearnMore />
 					</p>
@@ -251,10 +261,10 @@
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
 					<div class="flex overflow-y-hidden overflow-x-hidden ">
-						<img src="images/mobdev.webp" alt="movie" class="w-48 h-48 mx-auto object-contain" />
+						<img src="images/mobdev.webp" alt="movie" class="w-40  h-40 mx-auto object-contain" />
 					</div>
 
-					<p class="text-center font-bold object-contain md:text-4xl text-xl mb-10">
+					<p class="text-center font-bold object-contain md:text-3xl text-xl mb-6">
 						Mobile Development <br />
 						<LearnMore />
 					</p>
@@ -264,10 +274,10 @@
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
 					<div class="flex overflow-y-hidden overflow-x-hidden ">
-						<img src="images/testing.webp" alt="movie" class="w-48 h-48 mx-auto object-contain" />
+						<img src="images/testing.webp" alt="movie" class="w-40  h-40 mx-auto object-contain" />
 					</div>
 
-					<p class="text-center font-bold object-contain md:text-4xl text-xl mb-10">
+					<p class="text-center font-bold object-contain md:text-3xl text-xl mb-6">
 						Software Testing <br />
 						<LearnMore />
 					</p>
@@ -277,10 +287,10 @@
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
 					<div class="flex overflow-y-hidden overflow-x-hidden ">
-						<img src="images/coding.webp" alt="movie" class="w-48 h-48 mx-auto object-contain" />
+						<img src="images/coding.webp" alt="movie" class="w-40  h-40 mx-auto object-contain" />
 					</div>
 
-					<p class="text-center font-bold object-contain md:text-4xl text-xl mb-10">
+					<p class="text-center font-bold object-contain md:text-3xl text-xl mb-6">
 						Programming Language <br />
 						<LearnMore />
 					</p>
@@ -290,10 +300,10 @@
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
 					<div class="flex overflow-y-hidden overflow-x-hidden ">
-						<img src="images/database.webp" alt="movie" class="w-48 h-48 mx-auto object-contain" />
+						<img src="images/database.webp" alt="movie" class="w-40  h-40 mx-auto object-contain" />
 					</div>
 
-					<p class="text-center mx-auto font-bold object-contain md:text-4xl text-xl mb-10">
+					<p class="text-center mx-auto font-bold object-contain md:text-3xl text-xl mb-6">
 						Database Design <br />
 						<LearnMore />
 					</p>
@@ -348,7 +358,7 @@
 		</div>
 	</div>
 
-	<div class="bg-white dark:bg-black py-16 sm:py-16 ">
+	<div id="wat" class="bg-white dark:bg-black py-16 sm:py-16 ">
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<p class="text-center font-bold  md:text-6xl text-2xl mb-10">
 				LEARN <span class=" text-purple-600 "> MORE </span>NOW

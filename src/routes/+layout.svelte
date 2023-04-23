@@ -72,17 +72,18 @@
 	>
 		<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 			<a href="/" class="flex items-center">
-				<img src="images/logos.webp" class="h-8 mr-3" alt="Asterisc Logo" />
+				<img src="images/logos.webp" class="h-8 w-8 mr-3" alt="Asterisc Logo" />
 				<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
 					>Asterisc</span
 				>
 			</a>
-			<div class="flex md:order-2">
-				<DarkMode />
+			<div class="flex lg:order-2">
+				<div class="px-2"><DarkMode /></div>
+				
 				<a href="/contactus">
 					<button
 						type="button"
-						class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800"
+						class="text-white   bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800"
 						>Get started</button
 					>
 				</a>
@@ -90,7 +91,7 @@
 					on:click={toggleNavbar}
 					data-collapse-toggle="navbar-sticky"
 					type="button"
-					class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+					class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
 					aria-controls="navbar-sticky"
 					aria-expanded="false"
 				>
@@ -110,21 +111,21 @@
 				</button>
 			</div>
 			<div
-				class="items-center justify-between w-full md:flex md:w-auto md:order-1 text-center {showMenu
+				class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1 text-center {showMenu
 					? ''
 					: 'hidden'} "
 				id="navbar-sticky"
 			>
 				<ul
-					class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+					class="flex flex-col p-4 lg:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 lg:bg-white dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700"
 				>
 					<li>
 						<a
 							href="/"
 							on:click={() => setActive(0)}
 							class="block py-2 pl-3 pr-4 {active === 0
-								? 'bg-purple-800 md:text-purple-800 md:dark:text-purple-800'
-								: 'bg-transparent'} sm:bg-transparent hover:border-black-800 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800'
+								: 'bg-transparent'} lg:bg-transparent hover:border-black-800 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
 							aria-current="page">Home</a
 						>
 					</li>
@@ -133,8 +134,8 @@
 							href="/aboutus"
 							on:click={() => setActive(1)}
 							class="block py-2 pl-3 pr-4 {active === 1
-								? 'bg-purple-800 md:text-purple-800 md:dark:text-purple-800'
-								: 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800'
+								: 'bg-transparent'} lg:bg-transparent text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
 							>About Us</a
 						>
 					</li>
@@ -143,8 +144,8 @@
 							href="/testimonials"
 							on:click={() => setActive(2)}
 							class="block py-2 pl-3 pr-4 {active === 2
-								? 'bg-purple-800 md:text-purple-800 md:dark:text-purple-800'
-								: 'bg-transparent'} sm:bg-transparent  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800'
+								: 'bg-transparent'} lg:bg-transparent  text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
 							>Testimonials</a
 						>
 					</li>
@@ -153,17 +154,27 @@
 							href="/contactus"
 							on:click={() => setActive(3)}
 							class="block py-2 pl-3 pr-4 {active === 3
-								? 'bg-purple-800 md:text-purple-800 md:dark:text-purple-800'
-								: 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800'
+								: 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
 							>Contact Us</a
 						>
 					</li>
 					<li>
 						<a
-							href="/faqs"
+							href="/courses"
 							on:click={() => setActive(4)}
 							class="block py-2 pl-3 pr-4 {active === 4
-								? 'bg-purple-800 md:text-purple-800 md:dark:text-purple-800 '
+								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800 '
+								: 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+							>Courses</a
+						>
+					</li>
+					<li>
+						<a
+							href="/faqs"
+							on:click={() => setActive(5)}
+							class="block py-2 pl-3 pr-4 {active === 5
+								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800 '
 								: 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
 							>FAQs</a
 						>
@@ -171,9 +182,9 @@
 					<li>
 						<a
 							href="https://astr-one.vercel.app/"
-							on:click={() => setActive(5)}
-							class="block py-2 pl-3 pr-4 {active === 5
-								? 'bg-purple-800 md:text-purple-800 md:dark:text-purple-800'
+							on:click={() => setActive(6)}
+							class="block py-2 pl-3 pr-4 {active === 6
+								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800'
 								: ''}  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
 							>Projects</a
 						>
