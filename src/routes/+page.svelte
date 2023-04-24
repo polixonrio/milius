@@ -3,7 +3,7 @@
 	// import { P, Hr, Card, Label, Input } from 'flowbite-svelte';
 	import LearnMore from '../components/LearnMore.svelte';
 	// import AOS from 'aos';
-	// import { onMount } from 'svelte';
+	import { onMount } from 'svelte';
 	// import emailjs from '@emailjs/browser';
 
 	// function sendEmail(e) {
@@ -24,11 +24,11 @@
 
 	import lazyload from 'vanilla-lazyload';
 
-let lazyLoadInstance;
+	let lazyLoadInstance;
 
-onMount(() => {
- lazyloadInstance = new lazyload();
-}
+	onMount(() => {
+		lazyLoadInstance = new lazyload();
+	});
 
 
 </script>
@@ -368,7 +368,6 @@ onMount(() => {
 			</p>
 			<div class="grid grid-cols-1 gap-x-8 gap-y-6 text-center lg:grid-cols-2">
 				<div class="w-full h-96 ">
-					
 					<iframe
 						class="aspect-video h-96 w-full lazy video-iframe"
 						loading="lazy"
