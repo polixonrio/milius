@@ -1,26 +1,26 @@
 <script>
-	import { Button } from 'flowbite-svelte';
-	import { P, Hr, Card, Label, Input } from 'flowbite-svelte';
+	// import { Button } from 'flowbite-svelte';
+	// import { P, Hr, Card, Label, Input } from 'flowbite-svelte';
 	import LearnMore from '../components/LearnMore.svelte';
-	import AOS from 'aos';
-	import { onMount } from 'svelte';
-	import emailjs from '@emailjs/browser';
+	// import AOS from 'aos';
+	// import { onMount } from 'svelte';
+	// import emailjs from '@emailjs/browser';
 
-	function sendEmail(e) {
-		emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_PUBLIC_KEY').then(
-			(result) => {
-				console.log('SUCCESS!', result.text);
-			},
-			(error) => {
-				console.log('FAILED...', error.text);
-			}
-		);
-	}
+	// function sendEmail(e) {
+	// 	emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_PUBLIC_KEY').then(
+	// 		(result) => {
+	// 			console.log('SUCCESS!', result.text);
+	// 		},
+	// 		(error) => {
+	// 			console.log('FAILED...', error.text);
+	// 		}
+	// 	);
+	// }
 
-	onMount(() => {
-		AOS.init();
-		AOS.refresh();
-	});
+	// onMount(() => {
+	// 	AOS.init();
+	// 	AOS.refresh();
+	// });
 </script>
 
 <main class="dark:bg-gray-800 bg-gray-100  dark:text-gray-100  ">
