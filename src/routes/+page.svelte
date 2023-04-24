@@ -21,6 +21,16 @@
 	// 	AOS.init();
 	// 	AOS.refresh();
 	// });
+
+	import lazyload from 'vanilla-lazyload';
+
+let lazyLoadInstance;
+
+onMount(() => {
+ lazyloadInstance = new lazyload();
+}
+
+
 </script>
 
 <main class="dark:bg-gray-800 bg-gray-100  dark:text-gray-100  ">
@@ -358,21 +368,10 @@
 			</p>
 			<div class="grid grid-cols-1 gap-x-8 gap-y-6 text-center lg:grid-cols-2">
 				<div class="w-full h-96 ">
-					<!-- <iframe
-						class="aspect-video h-96 w-full"
-						frameborder="0"
-						allowfullscreen
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-						title="College Students Develop mobile app in lockdown and start earning | NAGPUR"
-						width="640"
-						height="360"
-						src="https://www.youtube.com/embed/T9ITgDZWDZg?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=0&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fasterisc.in&amp;widgetid=1"
-						id="widget2"
-					/> -->
+					
 					<iframe
 						class="aspect-video h-96 w-full lazy video-iframe"
 						loading="lazy"
-
 						src=""
 						data-src="https://www.youtube-nocookie.com/embed/T9ITgDZWDZg"
 						title="College Students Develop mobile app in lockdown and start earning | NAGPUR"

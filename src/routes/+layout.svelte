@@ -1,24 +1,24 @@
 <script lang="ts">
 	import '../app.postcss';
-	import { onMount } from 'svelte';
-	import {
-		DarkMode,
-		Navbar,
-		NavBrand,
-		NavLi,
-		NavUl,
-		NavHamburger,
-		Button,
-		Input
-	} from 'flowbite-svelte';
-	import {
-		Footer,
-		FooterBrand,
-		FooterLinkGroup,
-		FooterLink,
-		FooterCopyright,
-		FooterIcon
-	} from 'flowbite-svelte';
+	// import { onMount } from 'svelte';
+	// import {
+	// 	DarkMode,
+	// 	Navbar,
+	// 	NavBrand,
+	// 	NavLi,
+	// 	NavUl,
+	// 	NavHamburger,
+	// 	Button,
+	// 	Input
+	// } from 'flowbite-svelte';
+	// import {
+	// 	Footer,
+	// 	FooterBrand,
+	// 	FooterLinkGroup,
+	// 	FooterLink,
+	// 	FooterCopyright,
+	// 	FooterIcon
+	// } from 'flowbite-svelte';
 	import '@fontsource/poppins';
 
 	let active = 0;
