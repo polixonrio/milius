@@ -28,41 +28,14 @@
 
 
 
-
-	// let breakPoint: number = 1500;
-	// let width: number;
-	// let activateClickOutside = true;
-	// let drawerHidden: boolean = false;
-	// $: if (width >= breakPoint) {
-	// 	drawerHidden = false;
-	// 	activateClickOutside = false;
-	// } else {
-	// 	drawerHidden = true;
-	// 	activateClickOutside = true;
-	// }
-	// onMount(() => {
-	// 	if (width >= breakPoint) {
-	// 		drawerHidden = false;
-	// 		activateClickOutside = false;
-	// 	} else {
-	// 		drawerHidden = true;
-	// 		activateClickOutside = true;
-	// 	}
-	// });
-	// let darkmodebtn =
-	// 	'text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-lg p-2.5  right-2 top-12  md:top-3 md:right-2 z-50';
-	// let divClass = 'w-full md:block md:w-auto';
-	// let ulClass =
-	// 	'flex flex-col p-4 text-center mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium';
 </script>
 
-<!-- <svelte:window bind:innerWidth={width} /> -->
 
 <header class="sticky shadow-xl dark:shadow-white top-0 z-50 ">
 	<nav
-		class="bg-white dark:bg-gray-900 shadow-xl dark:shadow-blue-500/50 fixed w-full z-20 top-0 left-0 "
+		class=" backdrop-filter backdrop-blur-lg shadow-xl dark:shadow-blue-500/50 fixed w-full z-20 top-0 left-0 "
 	>
-		<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+		<div class="max-w-screen-xl backdrop-filter backdrop-blur-lg flex flex-wrap items-center justify-between mx-auto p-2">
 			<a href="/" class="flex items-center">
 				<img src="images/logos.webp" class="h-8 w-8 mr-3" alt="Asterisc Logo" />
 				<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
@@ -109,7 +82,7 @@
 				id="navbar-sticky"
 			>
 				<ul
-					class="flex flex-col p-4 lg:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 lg:bg-white dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700"
+					class="flex flex-col p-4 lg:p-0 mt-4 font-medium border border-gray-100 rounded-lg backdrop-filter backdrop-blur-lg lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0  dark:border-gray-700"
 				>
 					<li>
 						<a
