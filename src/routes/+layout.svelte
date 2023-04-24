@@ -33,12 +33,12 @@
 
 <header class="sticky shadow-xl dark:shadow-white top-0 z-50 ">
 	<nav
-		class=" backdrop-filter backdrop-blur-lg shadow-xl dark:shadow-blue-500/50 fixed w-full z-20 top-0 left-0 "
+		class=" backdrop-filter backdrop-blur-lg bg-opacity-30 shadow-xl dark:shadow-blue-500/50 fixed w-full z-20 top-0 left-0 "
 	>
 		<div class="max-w-screen-xl backdrop-filter backdrop-blur-lg flex flex-wrap items-center justify-between mx-auto p-2">
 			<a href="/" class="flex items-center">
 				<img src="images/logos.webp" class="h-8 w-8 mr-3" alt="Asterisc Logo" />
-				<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+				<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-purple-700"
 					>Asterisc</span
 				>
 			</a>
@@ -89,8 +89,8 @@
 							href="/"
 							on:click={() => setActive(0)}
 							class="block py-2 pl-3 pr-4 {active === 0
-								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800'
-								: 'bg-transparent'} lg:bg-transparent hover:border-black-800 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800 border-b-2 border-purple-800 '
+								: 'bg-transparent text-purple-400'} lg:bg-transparent hover:border-black-800 text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-purple-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent "
 							aria-current="page">Home</a
 						>
 					</li>
@@ -99,8 +99,8 @@
 							href="/aboutus"
 							on:click={() => setActive(1)}
 							class="block py-2 pl-3 pr-4 {active === 1
-								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800'
-								: 'bg-transparent'} lg:bg-transparent text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800 border-b-2 border-purple-800'
+								: 'bg-transparent text-purple-400' } lg:bg-transparent hover:border-black-800 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-purple-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
 							>About Us</a
 						>
 					</li>
@@ -109,8 +109,8 @@
 							href="/testimonials"
 							on:click={() => setActive(2)}
 							class="block py-2 pl-3 pr-4 {active === 2
-								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800'
-								: 'bg-transparent'} lg:bg-transparent  text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800 border-b-2 border-purple-800'
+								: 'bg-transparent text-purple-400'} lg:bg-transparent hover:border-black-800 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-purple-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
 							>Testimonials</a
 						>
 					</li>
@@ -119,8 +119,8 @@
 							href="/contactus"
 							on:click={() => setActive(3)}
 							class="block py-2 pl-3 pr-4 {active === 3
-								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800'
-								: 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800 border-b-2 border-purple-800'
+								: 'bg-transparent text-purple-400'} lg:bg-transparent hover:border-black-800 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-purple-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
 							>Contact Us</a
 						>
 					</li>
@@ -129,8 +129,8 @@
 							href="/courses"
 							on:click={() => setActive(4)}
 							class="block py-2 pl-3 pr-4 {active === 4
-								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800 '
-								: 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800 border-b-2 border-purple-800 '
+								: 'bg-transparent text-purple-400'} lg:bg-transparent hover:border-black-800 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-purple-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
 							>Courses</a
 						>
 					</li>
@@ -139,8 +139,8 @@
 							href="/faqs"
 							on:click={() => setActive(5)}
 							class="block py-2 pl-3 pr-4 {active === 5
-								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800 '
-								: 'bg-transparent'} sm:bg-transparent text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800 border-b-2 border-purple-800 '
+								: 'bg-transparent text-purple-400'} lg:bg-transparent hover:border-black-800 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-purple-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
 							>FAQs</a
 						>
 					</li>
@@ -149,8 +149,8 @@
 							href="https://astr-one.vercel.app/"
 							on:click={() => setActive(6)}
 							class="block py-2 pl-3 pr-4 {active === 6
-								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800'
-								: ''}  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800 border-b-2 border-purple-800'
+								: 'bg-transparent text-purple-400'}  lg:bg-transparent hover:border-black-800 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-purple-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
 							>Projects</a
 						>
 					</li>
