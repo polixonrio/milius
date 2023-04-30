@@ -1,16 +1,8 @@
 <script lang="ts">
 	import '../app.postcss';
-	// import { onMount } from 'svelte';
-	import {
-		DarkMode,
-
-	} from 'flowbite-svelte';
-	import {
-		Footer,
-		FooterBrand,
-		FooterLinkGroup,
-		FooterLink
-	} from 'flowbite-svelte';
+	import { onMount } from 'svelte';
+	import { DarkMode } from 'flowbite-svelte';
+	import { Footer, FooterBrand, FooterLinkGroup, FooterLink } from 'flowbite-svelte';
 	import '@fontsource/poppins';
 
 	let active = 0;
@@ -26,16 +18,20 @@
 		showMenu = !showMenu;
 	}
 
-
-
+	onMount(() => {
+		let url = window.location.href;
+	});
 </script>
+
 <!-- lma -->
 
-<header class="sticky shadow-xl dark:shadow-white top-0 z-50 ">
+<header class="sticky shadow-xl dark:shadow-white top-0 z-50">
 	<nav
-		class=" backdrop-filter backdrop-blur-lg bg-opacity-30 shadow-xl dark:shadow-blue-500/50 fixed w-full z-20 top-0 left-0 "
+		class=" backdrop-filter backdrop-blur-lg bg-opacity-30 shadow-xl dark:shadow-blue-500/50 fixed w-full z-20 top-0 left-0"
 	>
-		<div class="max-w-screen-xl backdrop-filter backdrop-blur-lg flex flex-wrap items-center justify-between mx-auto p-2">
+		<div
+			class="max-w-screen-xl backdrop-filter backdrop-blur-lg flex flex-wrap items-center justify-between mx-auto p-2"
+		>
 			<a href="/" class="flex items-center">
 				<img src="images/logos.webp" class="h-8 w-8 mr-3" alt="Asterisc Logo" />
 				<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-purple-700"
@@ -44,11 +40,11 @@
 			</a>
 			<div class="flex lg:order-2">
 				<div class="px-2"><DarkMode /></div>
-				
+
 				<a href="/contactus">
 					<button
 						type="button"
-						class="text-white   bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800"
+						class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800"
 						>Get started</button
 					>
 				</a>
@@ -82,7 +78,7 @@
 				id="navbar-sticky"
 			>
 				<ul
-					class="flex flex-col p-4 lg:p-0 mt-4 font-medium border border-gray-100 rounded-lg backdrop-filter backdrop-blur-lg lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0  dark:border-gray-700"
+					class="flex flex-col p-4 lg:p-0 mt-4 font-medium border border-gray-100 rounded-lg backdrop-filter backdrop-blur-lg lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 dark:border-gray-700"
 				>
 					<li>
 						<a
@@ -90,7 +86,7 @@
 							on:click={() => setActive(0)}
 							class="block py-2 pl-3 pr-4 {active === 0
 								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800 border-b-2 border-purple-800 '
-								: 'bg-transparent text-purple-400'} lg:bg-transparent hover:border-black-800 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-purple-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent "
+								: 'bg-transparent text-purple-400'} lg:bg-transparent hover:border-black-800 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-purple-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
 							aria-current="page">Home</a
 						>
 					</li>
@@ -100,7 +96,7 @@
 							on:click={() => setActive(1)}
 							class="block py-2 pl-3 pr-4 {active === 1
 								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800 border-b-2 border-purple-800'
-								: 'bg-transparent text-purple-400' } lg:bg-transparent hover:border-black-800 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-purple-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+								: 'bg-transparent text-purple-400'} lg:bg-transparent hover:border-black-800 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-purple-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
 							>About Us</a
 						>
 					</li>
@@ -168,7 +164,7 @@
 </main>
 
 <Footer customClass="bg-slate-100" footerType="socialmedia">
-	<div class="mx-auto 	 max-w-screen-xl text-center">
+	<div class="mx-auto max-w-screen-xl text-center">
 		<FooterBrand
 			href="https://asterisc.in"
 			src="/images/logos.webp"
