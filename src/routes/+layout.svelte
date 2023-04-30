@@ -90,7 +90,7 @@
 							on:click={() => setActive(0)}
 							class="block py-2 pl-3 pr-4 {active === 0
 								? 'bg-purple-800 lg:text-purple-800 lg:dark:text-purple-800 border-b-2 border-purple-800 '
-								: 'bg-transparent text-purple-400'} lg:bg-transparent hover:border-black-800 text-white rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-purple-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent "
+								: 'bg-transparent text-purple-400'} lg:bg-transparent hover:border-black-800 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-purple-700 lg:p-0 lg:dark:hover:text-purple-500 dark:text-purple-400 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent "
 							aria-current="page">Home</a
 						>
 					</li>

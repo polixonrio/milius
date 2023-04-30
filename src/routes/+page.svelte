@@ -1,9 +1,7 @@
 <script>
-
 	import LearnMore from '../components/LearnMore.svelte';
 
 	import { onMount } from 'svelte';
- 
 
 	import lazyload from 'vanilla-lazyload';
 
@@ -13,19 +11,32 @@
 		lazyLoadInstance = new lazyload();
 	});
 
-
+	window.addEventListener('load', function () {
+		const form = document.getElementById('my-form');
+		form.addEventListener('submit', function (e) {
+			e.preventDefault();
+			const data = new FormData(form);
+			const action = e.target.action;
+			fetch(action, {
+				method: 'POST',
+				body: data
+			}).then(() => {
+				alert('Success!');
+			});
+		});
+	});
 </script>
 
-<main class="dark:bg-gray-800 bg-gray-100  dark:text-gray-100  ">
+<main class="dark:bg-gray-800 bg-gray-100 dark:text-gray-100">
 	<section
-		class="  pt-12 h-screen flex items-center justify-center bg-cover bg-center sm:bg-center bg-image-one dark:bg-image-two 
-		bg-no-repeat	 dark:bg-gray-900"
+		class="  pt-12 h-screen flex items-center justify-center bg-cover bg-center sm:bg-center bg-image-one dark:bg-image-two
+		bg-no-repeat dark:bg-gray-900"
 	>
 		<div
-			class="w-full h-full flex  justify-center items-center 
+			class="w-full h-full flex justify-center items-center
              "
 		>
-			<div class="py-8 px-4  mx-auto max-w-screen-xl align-middle text-center lg:py-16 lg:px-12">
+			<div class="py-8 px-4 mx-auto max-w-screen-xl align-middle text-center lg:py-16 lg:px-12">
 				<a
 					href="/testimonials"
 					class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
@@ -47,7 +58,7 @@
 				<h1
 					class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-3xl dark:text-white"
 				>
-					<p>Programming is <span class=" text-purple-600 "> MORE </span> difficult, Join Now</p>
+					<p>Programming is <span class=" text-purple-600"> MORE </span> difficult, Join Now</p>
 				</h1>
 				<p
 					class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400"
@@ -98,7 +109,7 @@
 						type="email"
 						autocomplete="email"
 						required
-						class="min-w-0 border-black flex-auto rounded-md bg-white/5 px-3.5 py-2  shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+						class="min-w-0 border-black flex-auto rounded-md bg-white/5 px-3.5 py-2 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
 						placeholder="Search For Courses"
 					/>
 					<button
@@ -107,26 +118,23 @@
 						>Search</button
 					>
 				</div>
-				
-			
 			</div>
 		</div>
 	</section>
 
-
-	<div class="bg-white  dark:bg-black py-16 sm:py-16 bg-cover bg-center sm:bg-center">
-		<div class="  grid grid-cols-1 flex-wrap mx-auto max-w-7xl px-6 lg:px-8 ">
-			<p class="text-center mx-auto font-bold  md:text-4xl text-2xl mb-10 ">
-				LEARN <span class=" text-purple-600 "> MORE </span>NOW
+	<div class="bg-white dark:bg-black py-16 sm:py-16 bg-cover bg-center sm:bg-center">
+		<div class="  grid grid-cols-1 flex-wrap mx-auto max-w-7xl px-6 lg:px-8">
+			<p class="text-center mx-auto font-bold md:text-4xl text-2xl mb-10">
+				LEARN <span class=" text-purple-600"> MORE </span>NOW
 			</p>
-			<div class="grid sm:grid-cols-3 mx-auto grid-cols-1 gap-4  ">
+			<div class="grid sm:grid-cols-3 mx-auto grid-cols-1 gap-4">
 				<div
-					class=" text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl   "
+					class=" text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
-					<div class="flex overflow-y-hidden  overflow-x-hidden ">
-						<img src="images/webdev.webp" alt="movie" class="w-40  h-40 mx-auto  object-contain " />
+					<div class="flex overflow-y-hidden overflow-x-hidden">
+						<img src="images/webdev.webp" alt="movie" class="w-40 h-40 mx-auto object-contain" />
 					</div>
-					<p class="text-center object-contain font-bold  md:text-3xl text-xl mb-6">
+					<p class="text-center object-contain font-bold md:text-3xl text-xl mb-6">
 						Web Developmment <br />
 						<LearnMore />
 					</p>
@@ -135,8 +143,8 @@
 				<div
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
-					<div class="flex overflow-y-hidden overflow-x-hidden ">
-						<img src="images/ml.webp" alt="movie" class="w-40  h-40 mx-auto object-contain" />
+					<div class="flex overflow-y-hidden overflow-x-hidden">
+						<img src="images/ml.webp" alt="movie" class="w-40 h-40 mx-auto object-contain" />
 					</div>
 
 					<p class="text-center font-bold object-contain md:text-3xl text-xl mb-6">
@@ -148,8 +156,8 @@
 				<div
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
-					<div class="flex overflow-y-hidden overflow-x-hidden ">
-						<img src="images/mobdev.webp" alt="movie" class="w-40  h-40 mx-auto object-contain" />
+					<div class="flex overflow-y-hidden overflow-x-hidden">
+						<img src="images/mobdev.webp" alt="movie" class="w-40 h-40 mx-auto object-contain" />
 					</div>
 
 					<p class="text-center font-bold object-contain md:text-3xl text-xl mb-6">
@@ -161,8 +169,8 @@
 				<div
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
-					<div class="flex overflow-y-hidden overflow-x-hidden ">
-						<img src="images/testing.webp" alt="movie" class="w-40  h-40 mx-auto object-contain" />
+					<div class="flex overflow-y-hidden overflow-x-hidden">
+						<img src="images/testing.webp" alt="movie" class="w-40 h-40 mx-auto object-contain" />
 					</div>
 
 					<p class="text-center font-bold object-contain md:text-3xl text-xl mb-6">
@@ -174,8 +182,8 @@
 				<div
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
-					<div class="flex overflow-y-hidden overflow-x-hidden ">
-						<img src="images/coding.webp" alt="movie" class="w-40  h-40 mx-auto object-contain" />
+					<div class="flex overflow-y-hidden overflow-x-hidden">
+						<img src="images/coding.webp" alt="movie" class="w-40 h-40 mx-auto object-contain" />
 					</div>
 
 					<p class="text-center font-bold object-contain md:text-3xl text-xl mb-6">
@@ -187,8 +195,8 @@
 				<div
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
-					<div class="flex overflow-y-hidden overflow-x-hidden ">
-						<img src="images/database.webp" alt="movie" class="w-40  h-40 mx-auto object-contain" />
+					<div class="flex overflow-y-hidden overflow-x-hidden">
+						<img src="images/database.webp" alt="movie" class="w-40 h-40 mx-auto object-contain" />
 					</div>
 
 					<p class="text-center mx-auto font-bold object-contain md:text-3xl text-xl mb-6">
@@ -200,7 +208,7 @@
 		</div>
 	</div>
 
-	<div class="bg-white  py-24 sm:py-32">
+	<div class="bg-white py-24 sm:py-32">
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<p class="text-center text-3xl font-semibold leading-8 text-gray-900">Our top recruiters</p>
 
@@ -208,7 +216,7 @@
 				class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5"
 			>
 				<img
-					class="col-span-2 max-h-22  w-full object-contain lg:col-span-1"
+					class="col-span-2 max-h-22 w-full object-contain lg:col-span-1"
 					src="/images/jpmorgan.webp"
 					alt="Transistor"
 					width="158"
@@ -246,13 +254,13 @@
 		</div>
 	</div>
 
-	<div id="wat" class="bg-white dark:bg-black py-16 sm:py-16 ">
+	<div id="wat" class="bg-white dark:bg-black py-16 sm:py-16">
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
-			<p class="text-center font-bold  md:text-6xl text-2xl mb-10">
-				LEARN <span class=" text-purple-600 "> MORE </span>NOW
+			<p class="text-center font-bold md:text-6xl text-2xl mb-10">
+				LEARN <span class=" text-purple-600"> MORE </span>NOW
 			</p>
 			<div class="grid grid-cols-1 gap-x-8 gap-y-6 text-center lg:grid-cols-2">
-				<div class="w-full h-96 ">
+				<div class="w-full h-96">
 					<iframe
 						class="aspect-video h-96 w-full lazy video-iframe"
 						loading="lazy"
@@ -265,10 +273,10 @@
 					/>
 				</div>
 				<div>
-					<p class="text-left font-bold  md:text-5xl text-xl mb-10">
+					<p class="text-left font-bold md:text-5xl text-xl mb-10">
 						Students Success Journey Build App during lockdown and earn profit <br />
 					</p>
-					<p class="text-center font-sm   text-base mb-10">
+					<p class="text-center font-sm text-base mb-10">
 						Check out the success story of our students. Student Interview sharing there experience.
 						Do you have big dreams & if you want to succeed In life journey.
 
@@ -354,7 +362,6 @@
 								>
 							</a>
 						</li>
-						
 					</ul>
 				</div>
 				<div class="text-center text-gray-500 dark:text-gray-400">
@@ -388,7 +395,6 @@
 								>
 							</a>
 						</li>
-						
 					</ul>
 				</div>
 				<div class="text-center text-gray-500 dark:text-gray-400">
@@ -423,15 +429,13 @@
 								>
 							</a>
 						</li>
-					
 					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
 
-
-	<div class="relative isolate overflow-hidden dark:bg-black bg-purple-700  py-16 sm:py-24 lg:py-32">
+	<div class="relative isolate overflow-hidden dark:bg-black bg-purple-700 py-16 sm:py-24 lg:py-32">
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
 				<div class="max-w-xl lg:max-w-lg">
@@ -440,7 +444,9 @@
 					</h2>
 
 					<div class="mt-6 flex max-w-md gap-x-4">
-						<label for="email-address-subscribe" class=" text-black dark:text-white sr-only">Email address</label>
+						<label for="email-address-subscribe" class=" text-black dark:text-white sr-only"
+							>Email address</label
+						>
 						<input
 							id="email-address"
 							name="email"
@@ -481,10 +487,7 @@
 				</dl>
 			</div>
 		</div>
-
 	</div>
-
-
 
 	<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
 		<section class="bg-white dark:bg-gray-900 rounded-xl">
@@ -498,18 +501,23 @@
 					Take advantage of our free consultation call and let our experts help you to choose the
 					best career.
 				</p>
-				<form action="#" class="space-y-8">
+				<form
+					method="POST"
+					action="https://script.google.com/macros/s/AKfycbwrPfcG5LaJBMklF-paJUv-JdP541C79RTsDgdw2q5sRzR6CNcA0YFI2w8XC1itFbRPNQ/exec"
+					class="space-y-8"
+				>
 					<div>
 						<label
-							for="email"
+							for="Email"
 							class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
 							>Your email</label
 						>
 						<input
 							type="email"
-							id="email"
+							id="Email"
+							name = "Email"
 							class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-							placeholder="name@flowbite.com"
+							placeholder="name@asterisc.in"
 							required
 						/>
 					</div>
@@ -521,6 +529,7 @@
 						<input
 							type="text"
 							id="subject"
+							name="Subject"
 							class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
 							placeholder="Let us know how we can help you"
 							required
@@ -532,9 +541,9 @@
 							class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
 							>Your message</label
 						>
-						<textarea
+						<input
 							id="message"
-							rows="6"
+							name="Message"
 							class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
 							placeholder="Leave a comment..."
 						/>
