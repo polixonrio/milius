@@ -503,9 +503,24 @@
 				</p>
 				<form
 					method="POST"
-					action="https://script.google.com/macros/s/AKfycbz3tEYAfsrdAyhmh8My24rM55pObLaeLJaaJ-rZo7K_LuZwYNdIRTcGrEhaUqGo-OGZ/exec"
+					action="https://script.google.com/macros/s/AKfycbybeMYkz5MSVPJPHGoaiVhm4Dwv1zxmRoS_R4woMWUcSXcuW2RLLAfELCAXK4L2NEHP/exec"
 					class="space-y-8"
-				>
+				>	
+				<div>
+					<label
+						for="Name"
+						class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+						>Your Name</label
+					>
+					<input
+						type="text"
+						id="Name"
+						name = "Name"
+						class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+						placeholder="Jane Doe"
+						required
+					/>
+				</div>
 					<div>
 						<label
 							for="Email"
