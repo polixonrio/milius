@@ -89,7 +89,7 @@
 								clip-rule="evenodd"
 							/></svg
 						>
-						Learn more
+						<span>Learn more</span>
 						
 					</a>
 					<!-- <a
