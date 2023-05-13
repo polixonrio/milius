@@ -18,16 +18,16 @@
 				inactiveClasses="text-gray-500 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800"
 			>
 				<AccordionItem bind:open={items[0]}>
-					<span slot="header" class="text-justify">How many hours daily lectures will be ?</span>
-					<p class="mb-2 text-justify text-gray-500 dark:text-gray-400">
+					<span slot="header" class="text-justify text-md">How many hours daily lectures will be ?</span>
+					<p class="mb-2 text-justify text-md text-gray-500 dark:text-gray-400">
 						1 hour teaching and 1 hour practical. Along with that you’ll also have daily homework
 						discussion and doubt resolution sessions with your Mentors. You’ll also be given
 						practice homework to master the topics.
 					</p>
 				</AccordionItem>
 				<AccordionItem bind:open={items[1]}>
-					<div slot="header" >Will i get a job assured after completing this training ?</div>
-					<p class="mb-2 text-justify text-gray-500 dark:text-gray-400">
+					<div slot="header" class="text-justify text-md" >Will i get a job assured after completing this training ?</div>
+					<p class="mb-2 text-justify text-md text-gray-500 dark:text-gray-400">
 						Your knowledge skills will be in high demand, and future will be bright, but like most
 						2important things in life, your prospective employment in the world depends on how hard
 						you work. If you consistently apply throughout the 6 months job industrial training
@@ -44,16 +44,16 @@
 
 				<AccordionItem bind:open={items[2]}>
 					<span slot="header">What are the various modes of payments accepted here ?</span>
-					<p class="mb-2  text-gray-500 dark:text-gray-400">
+					<p class="mb-2  text-gray-500 text-md dark:text-gray-400">
 						You can make payment Via Cash, online payments.
 					</p>
 				</AccordionItem>
 
 				<AccordionItem bind:open={items[3]}>
 					<span slot="header"
-						>I do not have a computer programming background. Can i still take this course and get job ?
+						>I do not have programming background. Can i still take the course & get job ?
 					</span>
-					<p class="mb-2 text-gray-500 dark:text-gray-400">
+					<p class="mb-2 text-gray-500 text-md dark:text-gray-400">
 						Our Course curriculum is designed for new freshers candidates and is advised by Industry
 						Experts. The course enable basic to advanced raw fresher’s to be industry ready. You
 						will start from basic concepts to learning key programming fundamentals. There will be
@@ -69,7 +69,7 @@
 					<span slot="header"
 						>Can i pay whole amount at once ?
 					</span>
-					<p class="mb-2 text-gray-500 dark:text-gray-400">
+					<p class="mb-2 text-gray-500 text-md dark:text-gray-400">
 						Yes, you will have the option to pay in full, directly to Asterisc at a 20% discount.
 					</p>
 				</AccordionItem>
@@ -79,7 +79,7 @@
 						>
 						Is it possible that the course might get extended to more than pre decided time ?
 					</span>
-					<p class="mb-2 text-gray-500 dark:text-gray-400">
+					<p class="mb-2 text-gray-500 text-md dark:text-gray-400">
                         Yes, sometimes depending on the pace of the batch, the course might get extended by a bit. In the end, we want to make sure that none of our students get left behind. To ensure this we sometimes have to take repeat lectures or slow down the pace of the batch.
 
 					</p>
