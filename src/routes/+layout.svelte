@@ -1,8 +1,8 @@
 <script lang="ts">
 	import '../app.postcss';
 	import Navbar from '../components/Navbar.svelte';
-	import { navigating } from '$app/stores';
-	import PreloadingIndicator from '../components/PreloadingIndicator.svelte';
+	// import { navigating } from '$app/stores';
+	// import PreloadingIndicator from '../components/PreloadingIndicator.svelte';
 </script>
 
 <!-- lma -->

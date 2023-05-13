@@ -38,7 +38,7 @@
 		left: 0;
 		top: 0;
 		height: 100%;
-		background-color: #5cb85c;
+		background-color: #800080;
 		transition: width 0.4s;
 	}
 
