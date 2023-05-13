@@ -3,7 +3,7 @@ import { redirect, type Actions, fail } from '@sveltejs/kit';
 
 export const load = async ({ locals }) => {
 	const { user } = await locals.auth.validateUser();
-	if (!user) throw redirect(302, '/login');
+	// if (!user) throw redirect(302, '/login');
 	return {
 		user
 	};
