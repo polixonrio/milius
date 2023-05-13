@@ -11,12 +11,7 @@
     />
   </div>
 </div>
-<iframe
-      title="VS Code"
-      src="https://stackblitz.com/github/yashash-pugalia/win11Svelte?embed=1&file=src/App.svelte"
-      frameborder="0"
-    />
-  </div>
+
 <style>
   .vscode {
     background: #202327;
