@@ -74,7 +74,7 @@
 					class="flex flex-col mb-4 lg:mb-10 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"
 				>
 					<a
-						href="/aboutus"
+						href="\aboutus"
 						class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-fresh-eggplant-700 hover:bg-fresh-eggplant-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
 					>
 						Learn more
