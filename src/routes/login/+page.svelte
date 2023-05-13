@@ -4,7 +4,7 @@
 	export let form: { message?: string };
 </script>
 
-<section class="bg-gray-50 dark:bg-gray-900">
+<!-- <section class="bg-gray-50 dark:bg-gray-900">
 	<div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
 		<h2>Sign in</h2>
 		<p class="center">or</p>
@@ -17,7 +17,7 @@
 		</form>
 
 		<a href="/signup" class="link">Create a new account</a>
-	</div>
+	</div> -->
 </section>
 
 <section class="bg-gray-50 dark:bg-gray-900">
@@ -41,7 +41,7 @@
 				>
 					Sign in to your account
 				</h1>
-				<form class="space-y-4 md:space-y-6" use:enhance action="post">
+				<form class="space-y-4 md:space-y-6" use:enhance method="post">
 					<div>
 						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
 							>Your email</label
@@ -80,9 +80,9 @@
 									required=""
 								/>
 							</div>
-							<div class="ml-3 text-sm">
+							<!-- <div class="ml-3 text-sm">
 								<label for="remember" class="text-gray-500 dark:text-gray-300">Remember me</label>
-							</div>
+							</div> -->
 						</div>
 						<!-- <a href="#" class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500">Forgot password?</a> -->
 						{#if form?.message}
