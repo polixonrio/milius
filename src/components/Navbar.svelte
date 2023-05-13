@@ -2,6 +2,7 @@
 	import { DarkMode } from 'flowbite-svelte';
 	import { page } from '$app/stores';
 	let active = 0;
+	import PreloadingIndicator from './PreloadingIndicator.svelte';
 
 	function setActive(index: number) {
 		active = index;
@@ -9,6 +10,7 @@
 	}
 
 	let showMenu = false;
+	import { navigating } from '$app/stores';
 
 	function toggleNavbar() {
 		showMenu = !showMenu;
@@ -18,6 +20,10 @@
 <nav
 	class=" backdrop-filter backdrop-blur-lg bg-opacity-30 shadow-xl dark:shadow-blue-500/50 fixed w-full z-20 top-0 left-0"
 >
+	{#if $navigating}
+		<PreloadingIndicator />
+	{/if}
+
 	<div
 		class="max-w-screen-xl backdrop-filter backdrop-blur-lg flex flex-wrap items-center justify-between mx-auto p-2"
 	>
@@ -26,7 +32,7 @@
 				src="images/logos.webp"
 				height="20rem"
 				width="30rem"
-				class="mr-1"
+				class="ml-1 mr-1"
 				alt="Asterisc Logo"
 			/>
 			<span
@@ -40,7 +46,7 @@
 			<a href="/contactus">
 				<button
 					type="button"
-					class="text-white bg-fresh-eggplant-700 hover:bg-fresh-eggplant-800 focus:ring-4 focus:outline-none focus:ring-fresh-eggplant-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 lg:mr-0 dark:bg-fresh-eggplant-600 dark:hover:bg-fresh-eggplant-700 dark:focus:ring-fresh-eggplant-800"
+					class="bg-fresh-eggplant-500 hover:bg-fresh-eggplant-700 text-white font-bold py-2 px-4 rounded focus:ring-4 focus:ring-fresh-eggplant-300 dark:focus:ring-fresh-eggplant-900"
 					>Get started</button
 				>
 			</a>

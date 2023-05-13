@@ -4,11 +4,11 @@
 			<div
 				class="max-w-sm bg-white mx-auto border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
 			>
-				<a href="#">
+				<a href="/">
 					<img class="rounded-t-lg" src="/images/Java.webp" alt="" />
 				</a>
 				<div class="p-5">
-					<a href="#">
+					<a href="/">
 						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 							Java In Depth: Become a Complete Java Engineer!
 						</h5>
@@ -20,7 +20,7 @@
 						computing, other mobile computing, games, and numerical computing.
 					</p>
 					<a
-						href="#"
+						href="/"
 						class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 					>
 						Start Now
@@ -43,11 +43,11 @@
 			<div
 				class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
 			>
-				<a href="#">
+				<a href="/">
 					<img class="rounded-t-lg" src="/images/aws.webp" alt="" />
 				</a>
 				<div class="p-5">
-					<a href="#">
+					<a href="/">
 						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 							AWS Certified Developer Associate 2021
 						</h5>
@@ -58,7 +58,7 @@
 						computing platform offered by Amazon.
 					</p>
 					<a
-						href="#"
+						href="/"
 						class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 					>
 						Start Now
@@ -81,11 +81,11 @@
 			<div
 				class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
 			>
-				<a href="#">
+				<a href="/">
 					<img class="rounded-t-lg" src="/images/eth.webp" alt="" />
 				</a>
 				<div class="p-5">
-					<a href="#">
+					<a href="/">
 						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 							Real-World Ethical Hacking: Hands-on Cybersecurity
 						</h5>
@@ -97,7 +97,7 @@
 						hackers are security experts that perform these assessments.
 					</p>
 					<a
-						href="#"
+						href="/"
 						class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 					>
 						Start Now
@@ -120,11 +120,11 @@
 			<div
 				class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
 			>
-				<a href="#">
+				<a href="/">
 					<img class="rounded-t-lg" src="/images/tally.webp" alt="" />
 				</a>
 				<div class="p-5">
-					<a href="#">
+					<a href="/">
 						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 							Tally ERP9 With GST Step By Step Guide From Basic to Professional
 						</h5>
@@ -136,7 +136,7 @@
 						from recording invoices to generating various MIS reports.
 					</p>
 					<a
-						href="#"
+						href="/"
 						class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 					>
 						Start Now
@@ -159,11 +159,11 @@
 			<div
 				class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
 			>
-				<a href="#">
+				<a href="/">
 					<img class="rounded-t-lg" src="/images/auto.webp" alt="" />
 				</a>
 				<div class="p-5">
-					<a href="#">
+					<a href="/">
 						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 							The Complete AutoCAD course from Zero to Advanced
 						</h5>
@@ -174,7 +174,7 @@
 						graphic designers, city planners and other professionals
 					</p>
 					<a
-						href="#"
+						href="/"
 						class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 					>
 						Start Now
@@ -197,11 +197,11 @@
 			<div
 				class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
 			>
-				<a href="#">
+				<a href="/">
 					<img class="rounded-t-lg" src="/images/graphicdesign.webp" alt="" />
 				</a>
 				<div class="p-5">
-					<a href="#">
+					<a href="/">
 						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 							Graphic Design Mastery: The Full Branding & Design Process
 						</h5>
@@ -213,7 +213,7 @@
 						displaying elements in interactive designs, to optimize the user experience.
 					</p>
 					<a
-						href="#"
+						href="/"
 						class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 					>
 						Start Now
@@ -236,11 +236,11 @@
 			<div
 				class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
 			>
-				<a href="#">
+				<a href="/">
 					<img class="rounded-t-lg" src="/images/cw.webp" alt="" />
 				</a>
 				<div class="p-5">
-					<a href="#">
+					<a href="/">
 						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 							Learn C++ for Game Development
 						</h5>
@@ -252,7 +252,7 @@
 						powerful as well as flexible.
 					</p>
 					<a
-						href="#"
+						href="/"
 						class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 					>
 						Start Now
@@ -275,11 +275,11 @@
 			<div
 				class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
 			>
-				<a href="#">
+				<a href="/">
 					<img class="rounded-t-lg" src="/images/mysql.webp" alt="" />
 				</a>
 				<div class="p-5">
-					<a href="#">
+					<a href="/">
 						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 							Build a Social Network from Scratch : MongoDB ,PHP + MySQL
 						</h5>
@@ -290,7 +290,7 @@
 						databases, session tracking, even build entire e-commerce sites.
 					</p>
 					<a
-						href="#"
+						href="/"
 						class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 					>
 						Start Now
@@ -313,11 +313,11 @@
 			<div
 				class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
 			>
-				<a href="#">
+				<a href="/">
 					<img class="rounded-t-lg" src="/images/python-image.webp" alt="" />
 				</a>
 				<div class="p-5">
-					<a href="#">
+					<a href="/">
 						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 							Python and Django Full stack Web Developer Bootcamp
 						</h5>
@@ -329,7 +329,7 @@
 						development as it is for scripting or “glue code” that connects components together.
 					</p>
 					<a
-						href="#"
+						href="/"
 						class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 					>
 						Start Now
