@@ -1,23 +1,7 @@
 <script lang="ts">
 	import '../app.postcss';
-	import { DarkMode } from 'flowbite-svelte';
 	import { Footer, FooterBrand, FooterLinkGroup, FooterLink } from 'flowbite-svelte';
-	import { page } from '$app/stores';
 	import Navbar from '../components/Navbar.svelte';
-
-
-	let active = 0;
-
-	function setActive(index: number) {
-		active = index;
-		showMenu = !showMenu;
-	}
-
-	let showMenu = false;
-
-	function toggleNavbar() {
-		showMenu = !showMenu;
-	}
 </script>
 
 <!-- lma -->
@@ -33,7 +17,9 @@
 	<div class="mx-auto max-w-screen-xl text-center">
 		<FooterBrand
 			href="https://asterisc.in"
-			src="/images/logos.webp"
+			height="20rem"
+			width="30rem"
+			class="mr-1"
 			alt="Asterisc Logo"
 			name="Asterisc.in"
 			aClass="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white"
@@ -70,5 +56,4 @@
 	p {
 		font-family: 'Quicksand', sans-serif;
 	}
-
 </style>

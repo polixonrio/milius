@@ -1,7 +1,6 @@
 <script lang="ts">
 
 	import { onMount } from 'svelte';
-
 	import { superForm } from 'sveltekit-superforms/client';
 	import type { PageData } from './$types';
 

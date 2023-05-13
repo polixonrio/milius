@@ -26,7 +26,7 @@
 				src="images/logos.webp"
 				height="20rem"
 				width="30rem"
-				class="h-8 w-8 mr-3"
+				class="mr-1"
 				alt="Asterisc Logo"
 			/>
 			<span
