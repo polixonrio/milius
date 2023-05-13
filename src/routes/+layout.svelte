@@ -3,7 +3,6 @@
 	import { onMount } from 'svelte';
 	import { DarkMode } from 'flowbite-svelte';
 	import { Footer, FooterBrand, FooterLinkGroup, FooterLink } from 'flowbite-svelte';
-	import '@fontsource/poppins';
 
 	let active = 0;
 
