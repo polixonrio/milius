@@ -1,11 +1,10 @@
 <script lang="ts">
 	import '../app.postcss';
 	import Navbar from '../components/Navbar.svelte';
-	// import { navigating } from '$app/stores';
-	// import PreloadingIndicator from '../components/PreloadingIndicator.svelte';
 </script>
 
-<!-- lma -->
+
+
 
 <header class="sticky shadow-xl dark:shadow-white top-0 z-50">
 	
