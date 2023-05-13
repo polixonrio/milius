@@ -32,7 +32,7 @@
 			class="max-w-screen-xl backdrop-filter backdrop-blur-lg flex flex-wrap items-center justify-between mx-auto p-2"
 		>
 			<a href="/" class="flex items-center">
-				<img src="images/logos.webp" class="h-8 w-8 mr-3" alt="Asterisc Logo" />
+				<img src="images/logos.webp" height="20rem" width="30rem" class="h-8 w-8 mr-3" alt="Asterisc Logo" />
 				<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-purple-700"
 					>Asterisc</span
 				>
