@@ -1,26 +1,6 @@
 <script lang="ts">
-	import { onMount } from 'svelte/types/runtime/internal/lifecycle';
 
-	onMount(() => {
-		const form = document.getElementById('sheetdb-form'));
-
-		if (form !== undefined) {
-			// continue - error suppressed when used in this way.
-
-			form.addEventListener('submit', (e) => {
-				e.preventDefault();
-				fetch(form.action, {
-					method: 'POST',
-					body: new FormData(document.getElementById('sheetdb-form'))
-				})
-					.then((response) => response.json())
-					.then((html) => {
-						// you can put any JS code here
-						alert('success');
-					});
-			});
-		}
-	});
+	
 </script>
 
 <form

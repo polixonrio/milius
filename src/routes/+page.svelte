@@ -1,7 +1,13 @@
-<script>
+<script lang="ts">
 	import LearnMore from '../components/LearnMore.svelte';
 
 	import { onMount } from 'svelte';
+
+	import { superForm } from 'sveltekit-superforms/client';
+	import type { PageData } from './$types';
+
+	export let data: PageData;
+	const { form } = superForm(data.form);
 
 	import lazyload from 'vanilla-lazyload';
 
@@ -132,7 +138,12 @@
 					class=" text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
 					<div class="flex overflow-y-hidden overflow-x-hidden">
-						<img src="images/webdev.webp" alt="movie" class="w-40 h-40 mx-auto object-contain" />
+						<img sizes="(max-width: 512px) 100vw, 512px"
+						srcset="
+						images/webdev_domuyp_c_scale,w_190.webp 190w,
+						images/webdev_domuyp_c_scale,w_512.webp 512w"
+						src="images/webdev_domuyp_c_scale,w_512.webp"
+						alt="movie" class="w-40 h-40 mx-auto object-contain" />
 					</div>
 					<p class="text-center object-contain font-bold md:text-3xl text-xl mb-6">
 						Web Developmment <br />
@@ -144,7 +155,11 @@
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
 					<div class="flex overflow-y-hidden overflow-x-hidden">
-						<img src="images/ml.webp" alt="movie" class="w-40 h-40 mx-auto object-contain" />
+						<img sizes="(max-width: 760px) 100vw, 760px"
+						srcset="
+						images/ml_dlkx6t_c_scale,w_190.webp 190w,
+						images/ml_dlkx6t_c_scale,w_760.webp 760w"
+						src="images/ml_dlkx6t_c_scale,w_760.webp" alt="machine learning" class="w-40 h-40 mx-auto object-contain" />
 					</div>
 
 					<p class="text-center font-bold object-contain md:text-3xl text-xl mb-6">
@@ -157,7 +172,11 @@
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
 					<div class="flex overflow-y-hidden overflow-x-hidden">
-						<img src="images/mobdev.webp" alt="movie" class="w-40 h-40 mx-auto object-contain" />
+						<img sizes="(max-width: 760px) 100vw, 760px"
+						srcset="
+						images/mobdev_bhc6x7_c_scale,w_190.webp 190w,
+						images/mobdev_bhc6x7_c_scale,w_512.webp 760w"
+						src="images/ml_dlkx6t_c_scale,w_760.webp" alt="machine learning" class="w-40 h-40 mx-auto object-contain" />
 					</div>
 
 					<p class="text-center font-bold object-contain md:text-3xl text-xl mb-6">
@@ -170,7 +189,11 @@
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
 					<div class="flex overflow-y-hidden overflow-x-hidden">
-						<img src="images/testing.webp" alt="movie" class="w-40 h-40 mx-auto object-contain" />
+						<img sizes="(max-width: 512px) 100vw, 512px"
+						srcset="
+						images/testing_krievz_c_scale,w_190.webp 190w,
+						images/testing_krievz_c_scale,w_512.webp 512w"
+						src="images/testing_krievz_c_scale,w_512.webp" alt="testing" class="w-40 h-40 mx-auto object-contain" />
 					</div>
 
 					<p class="text-center font-bold object-contain md:text-3xl text-xl mb-6">
@@ -183,7 +206,14 @@
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
 					<div class="flex overflow-y-hidden overflow-x-hidden">
-						<img src="images/coding.webp" alt="movie" class="w-40 h-40 mx-auto object-contain" />
+						<img
+							class="w-40 h-40 mx-auto object-contain"
+							sizes="(max-width: 512px) 100vw, 512px"
+							srcset="images/coding_xz1jmp_c_scale,w_190.webp 190w,									
+							images/coding_xz1jmp_c_scale,w_512.webp 512w"
+							src="images/coding_xz1jmp_c_scale,w_512.webp"
+							alt="coding"
+						/>
 					</div>
 
 					<p class="text-center font-bold object-contain md:text-3xl text-xl mb-6">
@@ -196,7 +226,11 @@
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
 					<div class="flex overflow-y-hidden overflow-x-hidden">
-						<img src="images/database.webp" alt="movie" class="w-40 h-40 mx-auto object-contain" />
+						<img sizes="(max-width: 512px) 100vw, 512px"
+						srcset="
+						images/database_xkwfiv_c_scale,w_190.webp 190w,
+						images/database_xkwfiv_c_scale,w_512.webp 512w"
+						src="database_xkwfiv_c_scale,w_512.webp" alt="database design" class="w-40 h-40 mx-auto object-contain" />
 					</div>
 
 					<p class="text-center mx-auto font-bold object-contain md:text-3xl text-xl mb-6">
@@ -305,12 +339,12 @@
 						alt="Bonnie Avatar"
 					/>
 					<h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-						<a href="#">Chandrakant Sir</a>
+						<a href="/">Chandrakant Sir</a>
 					</h3>
 					<p>Founder / CEO</p>
 					<ul class="flex justify-center mt-4 space-x-4">
 						<li>
-							<a href="#" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+							<a href="/" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
 								<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
 									><path
 										fill-rule="evenodd"
@@ -321,7 +355,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="#" class="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
+							<a href="/" class="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
 								<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
 									><path
 										d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
@@ -338,12 +372,12 @@
 						alt="Helene Avatar"
 					/>
 					<h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-						<a href="#">Haris Sir </a>
+						<a href="/">Haris Sir </a>
 					</h3>
 					<p>CTO/Co-founder</p>
 					<ul class="flex justify-center mt-4 space-x-4">
 						<li>
-							<a href="#" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+							<a href="/" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
 								<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
 									><path
 										fill-rule="evenodd"
@@ -354,7 +388,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="#" class="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
+							<a href="/" class="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
 								<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
 									><path
 										d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
@@ -371,12 +405,12 @@
 						alt="Pooja Mam"
 					/>
 					<h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-						<a href="#">Pooja Mam</a>
+						<a href="/">Pooja Mam</a>
 					</h3>
 					<p>SEO & Marketing</p>
 					<ul class="flex justify-center mt-4 space-x-4">
 						<li>
-							<a href="#" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+							<a href="/" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
 								<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
 									><path
 										fill-rule="evenodd"
@@ -387,7 +421,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="#" class="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
+							<a href="/" class="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
 								<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
 									><path
 										d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
@@ -405,12 +439,12 @@
 						"
 					/>
 					<h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-						<a href="#">Shrikant Sir </a>
+						<a href="/">Shrikant Sir </a>
 					</h3>
 					<p>Sales</p>
 					<ul class="flex justify-center mt-4 space-x-4">
 						<li>
-							<a href="#" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
+							<a href="/" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
 								<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
 									><path
 										fill-rule="evenodd"
@@ -421,7 +455,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="#" class="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
+							<a href="/" class="text-[#00acee] hover:text-gray-900 dark:hover:text-white">
 								<svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
 									><path
 										d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
@@ -505,22 +539,23 @@
 					method="POST"
 					action="https://script.google.com/macros/s/AKfycby7oJo_s1gF8s7Y3SHWlxL5UodDj7CH6UiAy8vSOnPp85Gd8_MogoBXA63SeLqeAZfW/exec"
 					class="space-y-8"
-				>	
-				<div>
-					<label
-						for="Name"
-						class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-						>Your Name</label
-					>
-					<input
-						type="text"
-						id="Name"
-						name = "Name"
-						class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-						placeholder="Jane Doe"
-						required
-					/>
-				</div>
+				>
+					<div>
+						<label
+							for="Name"
+							class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+							>Your Name</label
+						>
+						<input
+							type="text"
+							id="Name"
+							name="Name"
+							class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+							placeholder="Jane Doe"
+							bind:value={$form.name}
+							required
+						/>
+					</div>
 					<div>
 						<label
 							for="Email"
@@ -530,9 +565,10 @@
 						<input
 							type="email"
 							id="Email"
-							name = "Email"
+							name="Email"
 							class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
 							placeholder="name@asterisc.in"
+							bind:value={$form.email}
 							required
 						/>
 					</div>
@@ -548,6 +584,7 @@
 							class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
 							placeholder="Let us know how we can help you"
 							required
+							bind:value={$form.subject}
 						/>
 					</div>
 					<div class="sm:col-span-2">
@@ -561,6 +598,7 @@
 							name="Mobile"
 							class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
 							placeholder="Mobile Number"
+							bind:value={$form.mobileno}
 						/>
 					</div>
 					<div class="sm:col-span-2">
@@ -574,9 +612,10 @@
 							name="Message"
 							class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
 							placeholder="Leave a comment..."
+							bind:value={$form.message}
 						/>
 					</div>
-					
+
 					<button
 						type="submit"
 						class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
