@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '../app.postcss';
-	import { Footer, FooterBrand, FooterLinkGroup, FooterLink } from 'flowbite-svelte';
 	import Navbar from '../components/Navbar.svelte';
 </script>
 
@@ -13,45 +12,38 @@
 	<slot />
 </main>
 
-<Footer customClass="bg-slate-100" footerType="socialmedia">
-	<div class="mx-auto max-w-screen-xl text-center">
-		<FooterBrand
-			href="https://asterisc.in"
-			height="20rem"
-			width="30rem"
-			src="images/logos.webp"
-			class="mr-1"
-			alt="Asterisc Logo"
-			name="Asterisc.in"
-			aClass="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white"
-		/>
 
-		<p class="my-6 text-gray-500 dark:text-gray-400">
-			Asterisc Computer Institute is a premier IT education Institute . The institute provides a
-			wide variety of professional career, short term and certification courses, designed by our
-			experts.
-		</p>
-		<FooterLinkGroup
-			ulClass="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white"
-		>
-			<FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="/">About Us</FooterLink>
-			<FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="/">FAQs</FooterLink>
-			<FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="/">Testimonials</FooterLink
-			>
-			<FooterLink
-				liClass=""
-				aClass="mr-4 hover:underline md:mr-6"
-				href="https://astr-one.vercel.app/">Projects</FooterLink
-			>
+<footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex text-center sm:items-center justify-center ">
+            <a href="/" class="flex items-center justify-center mb-4 sm:mb-0">
+                <img src="images/logos.webp" height="20rem" width="30rem" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white" alt="Flowbite Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+            </a>
+            <ul class="flex flex-wrap items-center justify-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li>
+                    <a href="/abouts" class="mr-4 hover:underline md:mr-6 ">About Us</a>
+                </li>
+                <li>
+                    <a href="/faqs" class="mr-4 hover:underline md:mr-6">FAQs</a>
+                </li>
+                <li>
+                    <a href="/testimonials" class="mr-4 hover:underline md:mr-6 ">Testimonials</a>
+                </li>
+                <li>
+                    <a href="/contactus" class="hover:underline">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
 
-			<FooterLink liClass="" aClass="mr-4 hover:underline md:mr-6" href="/">Contact Us</FooterLink>
-		</FooterLinkGroup>
-		<span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-			>© 2021-2023 <a href="https://asterisc.in/" class="hover:underline">Asterisc.in™ </a>.
-			Developed by Asterisc Technocrat Pvt. Ltd. All Rights Reserved.</span
-		>
-	</div>
-</Footer>
+		<p class="text-sm text-gray-500 text-center  dark:text-gray-400">© 2021-2023 <a href="https://asterisc.in/" class="hover:underline">Asterisc.in™ </a>.</p>
+		<p class="text-sm text-gray-500 text-center  dark:text-gray-400"> Developed by Asterisc Technocrat Pvt. Ltd. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+
 
 <style>
 	p {
