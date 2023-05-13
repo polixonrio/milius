@@ -51,15 +51,17 @@
 				class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700"
 			>
 				<iframe
-					class="aspect-video h-96 w-full"
+					class="aspect-video h-96 w-full lazy video-iframe"
+					loading="lazy"
+					src=""
 					frameborder="0"
 					allowfullscreen
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					title="College Students Develop mobile app in lockdown and start earning | NAGPUR"
-					src="https://www.youtube.com/embed/wevIc9MhtIk?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=0&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fasterisc.in&amp;widgetid=1"
+					data-src="https://www.youtube-nocookie.com/embed/wevIc9MhtIk"
 					id="widget2"
 				/>
-				
+			
 				<blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
 					<p class="my-4">
 						Asterisc institute was good for me in this lockdown because i managed to have some time
@@ -72,62 +74,62 @@
 					</p>
 				</blockquote>
 				<figcaption class="flex justify-center items-center space-x-3">
-				
 					<div class="space-y-0.5 font-medium dark:text-white text-left">
 						<div>Srishti Mishra</div>
 					</div>
 				</figcaption>
 			</figure>
-			
-		
 		</div>
 		<div class="grid mb-8 lg:mb-12 lg:grid-cols-2">
-			
 			<figure
 				class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700"
 			>
-				<iframe
-					class="aspect-video h-96 w-full"
-					frameborder="0"
-					allowfullscreen
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					title="College Students Develop mobile app in lockdown and start earning | NAGPUR"
-					src="https://www.youtube.com/embed/jE4wYC-PjuE?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=0&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fasterisc.in&amp;widgetid=1"
-					id="widget2"
-				/>
-		
-		
-			</figure>
-			<figure
-				class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700"
-			>
-				<iframe
-					class="aspect-video h-96 w-full"
-					frameborder="0"
-					allowfullscreen
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					title="College Students Develop mobile app in lockdown and start earning | NAGPUR"
-					src="https://www.youtube.com/embed/We9uMu6iou4?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=0&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fasterisc.in&amp;widgetid=1"
-					id="widget2"
-				/>
-		
-			
-			</figure>
-			<figure
-				class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700"
-			>
-				<iframe
-					class="aspect-video h-96 w-full"
-					frameborder="0"
-					allowfullscreen
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					title="College Students Develop mobile app in lockdown and start earning | NAGPUR"
-					src="https://www.youtube.com/embed/hwmT2q19rCs?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=0&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fasterisc.in&amp;widgetid=1"
-					id="widget2"
-				/>
-		
-				<figcaption class="flex justify-center items-center space-x-3">
 				
+				<iframe
+					class="aspect-video h-96 w-full lazy video-iframe"
+					loading="lazy"
+					src=""
+					frameborder="0"
+					allowfullscreen
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					title="College Students Develop mobile app in lockdown and start earning | NAGPUR"
+					data-src="https://www.youtube-nocookie.com/embed/jE4wYC-PjuE"
+					id="widget2"
+				/>
+			</figure>
+			<figure
+				class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700"
+			>
+			
+				<iframe
+					class="aspect-video h-96 w-full lazy video-iframe"
+					loading="lazy"
+					src=""
+					frameborder="0"
+					allowfullscreen
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					title="College Students Develop mobile app in lockdown and start earning | NAGPUR"
+					data-src="https://www.youtube-nocookie.com/embed/We9uMu6iou4"
+					id="widget2"
+				/>
+			</figure>
+			<figure
+				class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700"
+			>
+			
+				<iframe
+					class="aspect-video h-96 w-full lazy video-iframe"
+					loading="lazy"
+					src=""
+					frameborder="0"
+					allowfullscreen
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					title="College Students Develop mobile app in lockdown and start earning | NAGPUR"
+					data-src="https://www.youtube-nocookie.com/embed/hwmT2q19rCs"
+					id="widget2"
+				/>
+
+				<figcaption class="flex justify-center items-center space-x-3">
 					<div class="space-y-0.5 mt-4 font-medium dark:text-white text-left">
 						<div>Shubham</div>
 					</div>
@@ -136,18 +138,20 @@
 			<figure
 				class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700"
 			>
+		
 				<iframe
-					class="aspect-video h-96 w-full"
+					class="aspect-video h-96 w-full lazy video-iframe"
+					loading="lazy"
+					src=""
 					frameborder="0"
 					allowfullscreen
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					title="College Students Develop mobile app in lockdown and start earning | NAGPUR"
-					src="https://www.youtube.com/embed/XW-u-bwk9es?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=0&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fasterisc.in&amp;widgetid=1"
+					data-src="https://www.youtube-nocookie.com/embed/XW-u-bwk9es"
 					id="widget2"
 				/>
-		
+
 				<figcaption class="flex justify-center items-center space-x-3">
-				
 					<div class="space-y-0.5 mt-4 font-medium dark:text-white text-left">
 						<div>Yog Bharti</div>
 					</div>
