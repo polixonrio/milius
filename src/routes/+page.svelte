@@ -155,10 +155,10 @@
 					class="order-first text-3xl font-semibold tracking-tight dark:text-white text-gray-900 sm:text-5xl"
 				>
 					<div class="flex overflow-y-hidden overflow-x-hidden">
-						<img sizes="(max-width: 760px) 100vw, 760px"
+						<img sizes="(max-width: 520px) 100vw, 520px"
 						srcset="
 						images/ml_dlkx6t_c_scale,w_190.webp 190w,
-						images/ml_dlkx6t_c_scale,w_760.webp 760w"
+						images/ml_i7pndh_c_scale,w_520.webp 520w"
 						src="images/ml_dlkx6t_c_scale,w_760.webp" alt="machine learning" class="w-40 h-40 mx-auto object-contain" />
 					</div>
 
@@ -632,11 +632,5 @@
 		font-family: 'Quicksand', sans-serif;
 	}
 
-	.bg-image-light {
-		background-image: url('/images/ver.svg');
-	}
 
-	.bg-image-dark {
-		background-image: url('/images/ty.webp');
-	}
 </style>
