@@ -19,6 +19,7 @@
 			href="https://asterisc.in"
 			height="20rem"
 			width="30rem"
+			src="images/logos.webp"
 			class="mr-1"
 			alt="Asterisc Logo"
 			name="Asterisc.in"
