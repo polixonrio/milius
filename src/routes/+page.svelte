@@ -9,6 +9,7 @@
 
 	import lazyload from 'vanilla-lazyload';
 	import Learnmorenow from '../components/learnmorenow.svelte';
+	import LearnMore from '../components/LearnMore.svelte';
 
 	let lazyLoadInstance;
 
@@ -73,8 +74,8 @@
 				<div
 					class="flex flex-col mb-4 lg:mb-10 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"
 				>
-					<!-- <a
-						href="/aboutus"
+					<a
+						href="https://milius.vercel.app/"
 						class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-fresh-eggplant-700 hover:bg-fresh-eggplant-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
 					>
 						Learn more
@@ -89,7 +90,7 @@
 								clip-rule="evenodd"
 							/></svg
 						>
-					</a> -->
+					</a>
 					<!-- <a
 						href="/aboutus"
 						class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
@@ -105,6 +106,8 @@
 						>
 						Learn More
 					</a> -->
+					
+					
 					<a
 						href="#wat"
 						class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
