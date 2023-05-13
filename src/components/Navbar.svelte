@@ -4,10 +4,6 @@
 	let active = 0;
 	import PreloadingIndicator from './PreloadingIndicator.svelte';
 
-	function setActive(index: number) {
-		active = index;
-		showMenu = !showMenu;
-	}
 
 	let showMenu = false;
 	import { navigating } from '$app/stores';
@@ -139,7 +135,6 @@
 				<li>
 					<a
 						href="https://astr-one.vercel.app/"
-						on:click={() => setActive(6)}
 						class="block py-2 pl-3 pr-4 {active === 6
 							? 'bg-fresh-eggplant-800 lg:text-fresh-eggplant-800 text-white lg:dark:text-fresh-eggplant-800 border-b-2 border-fresh-eggplant-800 '
 							: 'bg-transparent text-fresh-eggplant-400'} lg:bg-transparent lg:hover:text-fresh-eggplant-700 lg:p-0 lg:dark:hover:text-fresh-eggplant-500 dark:text-fresh-eggplant-400"
