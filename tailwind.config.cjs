@@ -6,18 +6,10 @@ const config = {
 	  "./src/**/*.{html,js,svelte,ts}",
 	  "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}",
 	  "./node_modules/flowbite-svelte-blocks/**/*.{html,js,svelte,ts}",
-    {
-      transform: (content) => content.replace(/taos:/g, ''),
-    }
 
 	],
 
-  safelist: [
-    '!duration-[0ms]',
-    '!delay-[0ms]',
-    'html.js :where([class*="taos:"]:not(.taos-init))'
-  ],
-  
+
 	theme: {
     extend: {
       backgroundImage: (theme) => ({
@@ -78,7 +70,6 @@ const config = {
 	  require('flowbite/plugin'),
     require('tailwind-scrollbar'),
 
-    require('taos/plugin'),
 
 	],
 	darkMode: 'class',
