@@ -97,7 +97,7 @@
 						class="block py-2 pl-3 pr-4 {$page.url.pathname === '/aboutus'
 							? 'bg-fresh-eggplant-800 lg:text-fresh-eggplant-800 text-white lg:dark:text-fresh-eggplant-800 border-b-2 border-fresh-eggplant-800 '
 							: 'bg-transparent text-fresh-eggplant-400'} lg:bg-transparent lg:hover:text-fresh-eggplant-700 lg:p-0 lg:dark:hover:text-fresh-eggplant-500 dark:text-fresh-eggplant-400"
-						>About Us</a
+						aria-current="page">About Us</a
 					>
 				</li>
 				<li>
@@ -106,7 +106,7 @@
 						class="block py-2 pl-3 pr-4 {$page.url.pathname === '/testimonials'
 							? 'bg-fresh-eggplant-800 lg:text-fresh-eggplant-800 text-white lg:dark:text-fresh-eggplant-800 border-b-2 border-fresh-eggplant-800 '
 							: 'bg-transparent text-fresh-eggplant-400'} lg:bg-transparent lg:hover:text-fresh-eggplant-700 lg:p-0 lg:dark:hover:text-fresh-eggplant-500 dark:text-fresh-eggplant-400"
-						>Testimonials</a
+						aria-current="page">Testimonials</a
 					>
 				</li>
 				<li>
@@ -115,7 +115,7 @@
 						class="block py-2 pl-3 pr-4 {$page.url.pathname === '/contactus'
 							? 'bg-fresh-eggplant-800 lg:text-fresh-eggplant-800 text-white lg:dark:text-fresh-eggplant-800 border-b-2 border-fresh-eggplant-800 '
 							: 'bg-transparent text-fresh-eggplant-400'} lg:bg-transparent lg:hover:text-fresh-eggplant-700 lg:p-0 lg:dark:hover:text-fresh-eggplant-500 dark:text-fresh-eggplant-400"
-						>Contact Us</a
+						aria-current="page">Contact Us</a
 					>
 				</li>
 				<li>
@@ -124,7 +124,7 @@
 						class="block py-2 pl-3 pr-4 {$page.url.pathname === '/courses'
 							? 'bg-fresh-eggplant-800 lg:text-fresh-eggplant-800 text-white lg:dark:text-fresh-eggplant-800 border-b-2 border-fresh-eggplant-800 '
 							: 'bg-transparent text-fresh-eggplant-400'} lg:bg-transparent lg:hover:text-fresh-eggplant-700 lg:p-0 lg:dark:hover:text-fresh-eggplant-500 dark:text-fresh-eggplant-400"
-						>Courses</a
+						aria-current="page">Courses</a
 					>
 				</li>
 				<li>
@@ -133,7 +133,7 @@
 						class="block py-2 pl-3 pr-4 {$page.url.pathname === '/faqs'
 							? 'bg-fresh-eggplant-800 lg:text-fresh-eggplant-800 text-white lg:dark:text-fresh-eggplant-800 border-b-2 border-fresh-eggplant-800 '
 							: 'bg-transparent text-fresh-eggplant-400'} lg:bg-transparent lg:hover:text-fresh-eggplant-700 lg:p-0 lg:dark:hover:text-fresh-eggplant-500 dark:text-fresh-eggplant-400"
-						>FAQs</a
+						aria-current="page">FAQs</a
 					>
 				</li>
 				<li>
