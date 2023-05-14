@@ -9,7 +9,18 @@
 	import { navigating } from '$app/stores';
 
 	function toggleNavbar() {
+		// if (showMenu === true) {
+		// 	showMenu = !showMenu;
+		// }
+		if (showMenu) {
+			showMenu = !showMenu;
+		}
 		showMenu = !showMenu;
+	}
+	function togglelogo() {
+		if (showMenu) {
+			showMenu = !showMenu;
+		}
 	}
 </script>
 
@@ -23,7 +34,7 @@
 	<div
 		class="max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto p-2"
 	>
-		<a href="/" class="flex items-center">
+		<a href="/" on:click={togglelogo} class="flex items-center">
 			<img
 				src="images/logos.webp"
 				height="20rem"
@@ -79,7 +90,7 @@
 				class="flex flex-col p-4 lg:p-0 mt-4 font-medium border border-gray-100 rounded-lg  lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 dark:border-gray-700"
 			>
 				<li>
-					<a
+					<a on:click={toggleNavbar}
 						href="/"
 						class="block py-2 pl-3 pr-4 {$page.url.pathname === '/'
 							? 'bg-fresh-eggplant-800 lg:text-fresh-eggplant-800 text-white lg:dark:text-fresh-eggplant-800 border-b-2 border-fresh-eggplant-800 '
@@ -88,7 +99,7 @@
 					>
 				</li>
 				<li>
-					<a
+					<a on:click={toggleNavbar}
 						href="/aboutus"
 						class="block py-2 pl-3 pr-4 {$page.url.pathname === '/aboutus'
 							? 'bg-fresh-eggplant-800 lg:text-fresh-eggplant-800 text-white lg:dark:text-fresh-eggplant-800 border-b-2 border-fresh-eggplant-800 '
@@ -97,7 +108,7 @@
 					>
 				</li>
 				<li>
-					<a
+					<a on:click={toggleNavbar}
 						href="/testimonials"
 						class="block py-2 pl-3 pr-4 {$page.url.pathname === '/testimonials'
 							? 'bg-fresh-eggplant-800 lg:text-fresh-eggplant-800 text-white lg:dark:text-fresh-eggplant-800 border-b-2 border-fresh-eggplant-800 '
@@ -106,7 +117,7 @@
 					>
 				</li>
 				<li>
-					<a
+					<a on:click={toggleNavbar}
 						href="/contactus"
 						class="block py-2 pl-3 pr-4 {$page.url.pathname === '/contactus'
 							? 'bg-fresh-eggplant-800 lg:text-fresh-eggplant-800 text-white lg:dark:text-fresh-eggplant-800 border-b-2 border-fresh-eggplant-800 '
@@ -115,7 +126,7 @@
 					>
 				</li>
 				<li>
-					<a
+					<a on:click={toggleNavbar}
 						href="/courses"
 						class="block py-2 pl-3 pr-4 {$page.url.pathname === '/courses'
 							? 'bg-fresh-eggplant-800 lg:text-fresh-eggplant-800 text-white lg:dark:text-fresh-eggplant-800 border-b-2 border-fresh-eggplant-800 '
@@ -124,7 +135,7 @@
 					>
 				</li>
 				<li>
-					<a
+					<a on:click={toggleNavbar}
 						href="/faqs"
 						class="block py-2 pl-3 pr-4 {$page.url.pathname === '/faqs'
 							? 'bg-fresh-eggplant-800 lg:text-fresh-eggplant-800 text-white lg:dark:text-fresh-eggplant-800 border-b-2 border-fresh-eggplant-800 '
@@ -133,7 +144,7 @@
 					>
 				</li>
 				<li>
-					<a
+					<a on:click={toggleNavbar}
 						href="https://astr-one.vercel.app/"
 						class="block py-2 pl-3 pr-4 {active === 6
 							? 'bg-fresh-eggplant-800 lg:text-fresh-eggplant-800 text-white lg:dark:text-fresh-eggplant-800 border-b-2 border-fresh-eggplant-800 '

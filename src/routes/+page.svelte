@@ -379,11 +379,11 @@
 		</div>
 	</section>
 
-	<div class="relative isolate overflow-hidden dark:bg-black bg-fresh-eggplant-700 py-16 sm:py-24 lg:py-32">
+	<div class="relative isolate overflow-hidden dark:bg-black bg-fresh-eggplant-300 py-16 sm:py-24 lg:py-32">
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
 				<div class="max-w-xl lg:max-w-lg">
-					<h2 class="text-3xl font-bold tracking-tight text-white dark:text-white sm:text-4xl">
+					<h2 class="text-3xl font-bold tracking-tight text-black dark:text-white sm:text-4xl">
 						Access to our free coding courses NOW!
 					</h2>
 
@@ -397,12 +397,12 @@
 							type="email"
 							autocomplete="email"
 							required
-							class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+							class="min-w-0 flex-auto border rounded-md  bg-white/5 px-3.5 py-2 text-black dark:text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
 							placeholder="Enter your email"
 						/>
 						<button
 							type="submit"
-							class="flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+							class="flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-black dark:text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
 							>Subscribe</button
 						>
 					</div>
@@ -411,7 +411,7 @@
 					<div class="flex flex-col items-start">
 						<div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
 							<svg
-								class="h-6 w-6 text-white"
+								class="h-6 w-6 text-black dark:text-white"
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke-width="1.5"
@@ -425,8 +425,8 @@
 								/>
 							</svg>
 						</div>
-						<dt class="mt-4 font-semibold text-white">Weekly articles</dt>
-						<dd class="mt-2 leading-7 text-gray-400">Get Free courses every month</dd>
+						<dt class="mt-4 font-semibold text-black dark:text-white">Weekly articles</dt>
+						<dd class="mt-2 leading-7 text-black dark:text-white">Get Free courses every month</dd>
 					</div>
 				</dl>
 			</div>
