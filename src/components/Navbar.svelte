@@ -14,7 +14,7 @@
 </script>
 
 <nav
-	class=" backdrop-filter backdrop-blur-lg bg-opacity-30 shadow-xl dark:shadow-blue-500/50 fixed w-full z-20 top-0 left-0"
+	class=" backdrop-filter backdrop-blur-lg bg-opacity-50 dark:bg-opacity-50 shadow-xl dark:bg-gray-900 bg-white dark:fresh-eggplant-500/50 fixed w-full z-20 top-0 left-0"
 >
 	{#if $navigating}
 		<PreloadingIndicator />
@@ -70,7 +70,7 @@
 			</button>
 		</div>
 		<div
-			class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1 text-center {showMenu
+			class="items-center justify-between w-full h-screen lg:h-3 lg:flex lg:w-auto lg:order-1 text-center {showMenu
 				? ''
 				: 'hidden'} "
 			id="navbar-sticky"

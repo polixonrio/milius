@@ -1,9 +1,9 @@
 <!-- Footer container -->
 <div
-class="max-w-screen-xl rounded backdrop-filter backdrop-blur-lg flex flex-wrap items-center justify-between mx-auto "
+class="w-full rounded bg-transparent flex flex-wrap items-center justify-between mx-auto "
 >
 <footer
-	class="   rounded-t text-center text-neutral-600 dark:bg-transparent dark:text-neutral-200 lg:text-left"
+	class="   rounded-t text-center   text-neutral-600 sm:w-4/5 mx-auto dark:bg-transparent dark:text-neutral-200 lg:text-left"
 >
 
 		<div
@@ -99,16 +99,7 @@ class="max-w-screen-xl rounded backdrop-filter backdrop-blur-lg flex flex-wrap i
 					<h6
 						class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start"
 					>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 24 24"
-							fill="currentColor"
-							class="mr-3 h-4 w-4"
-						>
-							<path
-								d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z"
-							/>
-						</svg>
+						
 						ASTERISC TECHNOCRAT PVT. LTD.
 					</h6>
 					<p>
@@ -122,45 +113,45 @@ class="max-w-screen-xl rounded backdrop-filter backdrop-blur-lg flex flex-wrap i
           </h6>
           <tbody>
             <tr>
-              <th scope="row">Monday</th>
+              <th class="pr-5" scope="row">Monday</th>
               <td>10AM - 8PM</td>
             </tr>
             <tr>
-              <th scope="row">Tuesday</th>
+              <th class="pr-5" scope="row">Tuesday</th>
               <td>10AM - 8PM</td>
             </tr>
             <tr>
-              <th scope="row">Wednesday</th>
+              <th class="pr-5" scope="row">Wednesday</th>
               <td colspan="2">10AM - 8PM</td>
             </tr>
             <tr>
-              <th scope="row">Thursday</th>
+              <th class="pr-5" scope="row">Thursday</th>
               <td colspan="2">10AM - 8PM</td>
             </tr>
             <tr>
-              <th scope="row">Friday</th>
+              <th class="pr-5" scope="row">Friday</th>
               <td colspan="2">10AM - 8PM</td>
             </tr>
             <tr>
-              <th scope="row">Saturday</th>
+              <th class="pr-5"  scope="row">Saturday</th>
               <td colspan="2">10AM - 8PM</td>
             </tr>
             <tr>
-              <th scope="row">Sunday</th>
+              <th class="pr-5"  scope="row">Sunday</th>
               <td colspan="2">Closed</td>
             </tr>
           </tbody>
 				</div>
 
 				<!-- Contact section -->
-				<div>
+				<div class="mx-auto px-10">
 					<h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">Contact</h6>
-					<p class="mb-4 flex items-center justify-center md:justify-start">
+					<p class="mb-4  mx-auto flex items-center justify-center md:justify-start">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 24 24"
 							fill="currentColor"
-							class="mr-3 h-5 w-5"
+							class="mr-3  w-10"
 						>
 							<path
 								d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z"

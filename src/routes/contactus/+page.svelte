@@ -1,12 +1,12 @@
 <section class="bg-gray-100 dark:bg-gray-900">
-	<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+	<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-6">
 		<section class="bg-gray-100 dark:bg-gray-900 relative z-10 overflow-hidden py-20 lg:py-[120px]">
 			<div class="container mx-auto">
 				<div class="-mx-4 flex flex-wrap lg:justify-between">
 					<div class="w-full px-4 lg:w-1/2 xl:w-6/12">
 						<div class="mb-12 mx-auto max-w-[570px] lg:mb-0">
 							<p
-								class="text-primary text-black dark:text-white text-4xl  mb-4 block text-base font-semibold"
+								class="text-primary text-black dark:text-white text-4xl mb-4 block  font-semibold"
 							>
 								Contact Us
 							</p>
@@ -16,7 +16,7 @@
 								GET IN TOUCH WITH US
 							</p>
 							<p class="text-body-color mb-9 text-base leading-relaxed" />
-							<div class="mb-8 flex w-full max-w-[370px]">
+							<div class="mb-8 flex w-full">
 								<div
 									class="bg-primary dark:bg-white text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
 								>
@@ -37,10 +37,13 @@
 										440009
 									</p>
 								</div>
+								
+								
 							</div>
+							
 							<div class="mb-8 flex w-full max-w-[370px]">
 								<div
-									class="bg-primary  dark:bg-white text-primary mr-6  flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+									class="bg-primary dark:bg-white text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
 								>
 									<svg width="24" height="26" viewBox="0 0 24 26" class="fill-current">
 										<path
@@ -63,9 +66,10 @@
 									</p>
 								</div>
 							</div>
+							
 							<div class="mb-8 flex w-full max-w-[370px]">
 								<div
-									class="bg-primary  dark:bg-white text-primary mr-6  flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
+									class="bg-primary dark:bg-white text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"
 								>
 									<svg width="28" height="19" viewBox="0 0 28 19" class="fill-current">
 										<path
@@ -77,135 +81,103 @@
 									<p class="text-black dark:text-white mx-auto text-left text-xl font-bold">
 										Email Address
 									</p>
-									<p class="text-black dark:text-white text-left mx-auto font-bold text-base ">
+									<p class="text-black dark:text-white text-left mx-auto font-bold text-base">
 										info@asterisc.in
 									</p>
 								</div>
+							</div>
+							<div class="">
+								<iframe title="Map" class="position-relative rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.5380029134085!2d79.1162063!3d21.1309774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c7d89e6b78f1%3A0x5fb44fff07c1ae02!2sAsterisc%20Computer%20Institute%20Tiranga%20Chowk!5e0!3m2!1sen!2sin!4v1684053251610!5m2!1sen!2sin" width="600" height="450" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+									tabindex="0"</iframe>
 							</div>
 						</div>
 					</div>
 					<div class="w-full px-4 lg:w-1/2 xl:w-5/12">
 						<div class="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
-							<!-- <form>
-								<div class="mb-6">
+						
+							<form
+								method="POST"
+								action="https://script.google.com/macros/s/AKfycby7oJo_s1gF8s7Y3SHWlxL5UodDj7CH6UiAy8vSOnPp85Gd8_MogoBXA63SeLqeAZfW/exec"
+								class="space-y-8"
+							>
+								<div>
+									<label
+										for="Name"
+										class="block mb-2 text-sm font-medium text-gray-900 "
+										>Your Name</label
+									>
 									<input
 										type="text"
-										placeholder="Your Name"
-										class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
-									/>
-								</div>
-								<div class="mb-6">
-									<input
-										type="email"
-										placeholder="Your Email"
-										class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
-									/>
-								</div>
-								<div class="mb-6">
-									<input
-										type="text"
-										placeholder="Your Phone"
-										class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
-									/>
-								</div>
-								<div class="mb-6">
-									<textarea
-										rows="6"
-										placeholder="Your Message"
-										class="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"
+										id="Name"
+										name="Name"
+										class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+										placeholder="Jane Doe"
+										required
 									/>
 								</div>
 								<div>
-									<button
-										type="submit"
-										class="bg-primary border-black  border-2 text-black text-bold bg:black dark:text-black dark:bg-white border-primary w-full rounded border p-3  transition hover:bg-opacity-90"
+									<label
+										for="Email"
+										class="block mb-2 text-sm font-medium text-gray-900 "
+										>Your email</label
 									>
-										<p class="text-black text-extrabold text-bold">Send Message</p>
-									</button>
+									<input
+										type="email"
+										id="Email"
+										name="Email"
+										class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+										placeholder="name@asterisc.in"
+										required
+									/>
 								</div>
-							</form> -->
-				<form
-					method="POST"
-					action="https://script.google.com/macros/s/AKfycby7oJo_s1gF8s7Y3SHWlxL5UodDj7CH6UiAy8vSOnPp85Gd8_MogoBXA63SeLqeAZfW/exec"
-					class="space-y-8"
-				>	
-				<div>
-					<label
-						for="Name"
-						class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-						>Your Name</label
-					>
-					<input
-						type="text"
-						id="Name"
-						name = "Name"
-						class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-						placeholder="Jane Doe"
-						required
-					/>
-				</div>
-					<div>
-						<label
-							for="Email"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-							>Your email</label
-						>
-						<input
-							type="email"
-							id="Email"
-							name = "Email"
-							class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-							placeholder="name@asterisc.in"
-							required
-						/>
-					</div>
-					<div>
-						<label
-							for="subject"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label
-						>
-						<input
-							type="text"
-							id="subject"
-							name="Subject"
-							class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-							placeholder="Let us know how we can help you"
-							required
-						/>
-					</div>
-					<div class="sm:col-span-2">
-						<label
-							for="Mobile"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
-							>Your Phone</label
-						>
-						<input
-							id="Mobile"
-							name="Mobile"
-							class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-							placeholder="Mobile Number"
-						/>
-					</div>
-					<div class="sm:col-span-2">
-						<label
-							for="message"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
-							>Your message</label
-						>
-						<input
-							id="message"
-							name="Message"
-							class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-							placeholder="Leave a comment..."
-						/>
-					</div>
-					
-					<button
-						type="submit"
-						class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-						>Send message</button
-					>
-				</form>
+								<div>
+									<label
+										for="subject"
+										class="block mb-2 text-sm font-medium text-gray-900 "
+										>Subject</label
+									>
+									<input
+										type="text"
+										id="subject"
+										name="Subject"
+										class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+										placeholder="Let us know how we can help you"
+										required
+									/>
+								</div>
+								<div class="sm:col-span-2">
+									<label
+										for="Mobile"
+										class="block mb-2 text-sm font-medium text-gray-900 "
+										>Your Phone</label
+									>
+									<input
+										id="Mobile"
+										name="Mobile"
+										class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+										placeholder="Mobile Number"
+									/>
+								</div>
+								<div class="sm:col-span-2">
+									<label
+										for="message"
+										class="block mb-2 text-sm font-medium text-gray-900 "
+										>Your message</label
+									>
+									<input
+										id="message"
+										name="Message"
+										class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+										placeholder="Leave a comment..."
+									/>
+								</div>
+
+								<button
+									type="submit"
+									class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+									>Send message</button
+								>
+							</form>
 							<div>
 								<span class="absolute -top-10 -right-9 z-[-1]">
 									<svg
