@@ -9,12 +9,7 @@
 	import { navigating } from '$app/stores';
 
 	function toggleNavbar() {
-		// if (showMenu === true) {
-		// 	showMenu = !showMenu;
-		// }
-		if (showMenu) {
-			showMenu = !showMenu;
-		}
+	
 		showMenu = !showMenu;
 	}
 	function togglelogo() {
