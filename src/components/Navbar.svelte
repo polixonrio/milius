@@ -14,14 +14,14 @@
 </script>
 
 <nav
-	class=" backdrop-filter backdrop-blur-lg bg-opacity-50 dark:bg-opacity-50 shadow-xl dark:bg-gray-900 bg-white dark:fresh-eggplant-500/50 fixed w-full z-20 top-0 left-0"
+	class=" backdrop-filter backdrop-blur-lg bg-opacity-50 bg-white dark:bg-opacity-50 shadow-xl dark:bg-gray-900   fixed w-full z-20 top-0 left-0"
 >
 	{#if $navigating}
 		<PreloadingIndicator />
 	{/if}
 
 	<div
-		class="max-w-screen-xl backdrop-filter backdrop-blur-lg flex flex-wrap items-center justify-between mx-auto p-2"
+		class="max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto p-2"
 	>
 		<a href="/" class="flex items-center">
 			<img
@@ -76,7 +76,7 @@
 			id="navbar-sticky"
 		>
 			<ul
-				class="flex flex-col p-4 lg:p-0 mt-4 font-medium border border-gray-100 rounded-lg backdrop-filter backdrop-blur-lg lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 dark:border-gray-700"
+				class="flex flex-col p-4 lg:p-0 mt-4 font-medium border border-gray-100 rounded-lg  lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0 dark:border-gray-700"
 			>
 				<li>
 					<a

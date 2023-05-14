@@ -13,7 +13,7 @@
 							<p
 								class="text-black dark:text-white mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]"
 							>
-								GET IN TOUCH WITH US
+								Get in touch with us
 							</p>
 							<p class="text-body-color mb-9 text-base leading-relaxed" />
 							<div class="mb-8 flex w-full">
@@ -33,7 +33,7 @@
 									<p
 										class="text-body-color text-black dark:text-white font-bold text-left text-base"
 									>
-										Janaee Plaza,2nd Floor, Bhande Plot Chowk, Raghuji Nagar, Nagpur, Maharashtra
+										Janaee Plaza, 2nd Floor, Bhande Plot Chowk, Raghuji Nagar, Nagpur, Maharashtra
 										440009
 									</p>
 								</div>

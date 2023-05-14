@@ -8,10 +8,8 @@
 
 
 
-<header class="sticky shadow-xl dark:shadow-white top-0 z-50">
-	
-	<Navbar />
-</header>
+
+<Navbar />
 <main>
 	<slot />
 	<Footer />

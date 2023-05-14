@@ -42,3 +42,11 @@ model AuthKey {
   @@index([user_id])
   @@map("auth_key")
 }
+
+model Courses {
+  id                 Int    @id @unique @default(autoincrement())
+  Course_Name        String @unique
+  thumbnail_url      String @unique
+  Course_Description String @unique
+  @@index([id])
+}
