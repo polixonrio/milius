@@ -1,6 +1,8 @@
 <script lang="ts">
 	import '../app.postcss';
 	import Navbar from '../components/Navbar.svelte';
+	import Footer from '../components/Footer.svelte';
+	
 </script>
 
 
@@ -12,23 +14,28 @@
 </header>
 <main>
 	<slot />
+
 </main>
 
+<Footer />
+<!-- 
 <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
 	<div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-		<div class="sm:flex text-center sm:items-center justify-center">
-			<a href="/" class="flex items-center justify-center mb-4 sm:mb-0">
-				<img
-					src="images/logos.webp"
-					height="20rem"
-					width="30rem"
-					class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white"
-					alt="Flowbite Logo"
-				/>
-				<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-					>Flowbite</span
-				>
-			</a>
+		<a href="/" class="flex items-center justify-center mb-4 sm:mb-0">
+			<img
+				src="images/logos.webp"
+				height="20rem"
+				width="30rem"
+				class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white"
+				alt="Asterisc Logo"
+			/>
+			<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+				>Asterisc</span
+			>
+		</a>
+		<div class="sm:flex text-center mt-6 sm:items-center justify-center">
+			
+			
 			<ul
 				class="flex flex-wrap items-center justify-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400"
 			>
@@ -55,7 +62,8 @@
 			Developed by Asterisc Technocrat Pvt. Ltd. All Rights Reserved.
 		</p>
 	</div>
-</footer>
+</footer> -->
+
 
 <style>
 	p {
