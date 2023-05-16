@@ -42,6 +42,19 @@
 			description:
 				'C++ is a powerful general-purpose programming language. It can be used to develop operating systems, games, browsers, and so on. C++ supports different ways of programming like object-oriented, functional, procedural, and so on.',
 			image: '/images/cw.webp'
+		},
+	
+		
+		{
+			title: 'Build a Social Network from Scratch : MongoDB ,PHP + MySQL',
+			description: 'PHP is a recursive acronym for “PHP: Hypertext Preprocessor”. PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites.',
+			image: '/images/mysql.webp'
+		},
+		{
+			title: 'Python and Django Full stack Web Developer Bootcamp',
+			description:
+				'Python is a popular general-purpose programming language that can be used for a wide variety of applications. It includes high-level data structures, dynamic typing, dynamic binding, and many more features that make it as useful for complex application development as it is for scripting or glue code that connects components together.',
+			image: '/images/python-image.webp'
 		}
 	];
 </script>
@@ -396,6 +409,8 @@
 					</a>
 				</div>
 			</div> -->
+
+
 			{#each courses as course}
 				<div
 					class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
